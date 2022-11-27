@@ -1,0 +1,29 @@
+{
+  "itemId" : "_ZXp-wEbiEeinWss0349lOA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_2zLhQEblEei-dfk3mOu4-A",
+    "parameterList" : [ {
+      "id" : "_6bn-YfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Sid"
+    }, {
+      "id" : "_6bn-YvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Login"
+    }, {
+      "id" : "_6bn-Y_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Password"
+    }, {
+      "id" : "_6bn-ZPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Port"
+    }, {
+      "id" : "_6bn-ZfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Server"
+    }, {
+      "id" : "_6bn-ZvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Schema"
+    }, {
+      "id" : "_6bn-Z_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_AdditionalParams"
+    } ]
+  } ]
+}

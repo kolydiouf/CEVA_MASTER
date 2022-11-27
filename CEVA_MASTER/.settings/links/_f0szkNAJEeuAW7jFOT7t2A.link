@@ -1,0 +1,29 @@
+{
+  "itemId" : "_f0szkNAJEeuAW7jFOT7t2A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_6pjWINAJEeuAW7jFOT7t2A",
+    "parameterList" : [ {
+      "id" : "_6JPN4faWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BOFINANCE_Password"
+    }, {
+      "id" : "_6JPN4vaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BOFINANCE_Server"
+    }, {
+      "id" : "_6JPN4_aWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BOFINANCE_Port"
+    }, {
+      "id" : "_6JPN5PaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BOFINANCE_AdditionalParams"
+    }, {
+      "id" : "_6JPN5faWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BOFINANCE_Schema"
+    }, {
+      "id" : "_6JPN5vaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BOFINANCE_Login"
+    }, {
+      "id" : "_6JPN5_aWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BOFINANCE_Sid"
+    } ]
+  } ]
+}

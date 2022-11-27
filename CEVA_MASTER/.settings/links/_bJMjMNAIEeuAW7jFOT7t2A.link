@@ -1,0 +1,26 @@
+{
+  "itemId" : "_bJMjMNAIEeuAW7jFOT7t2A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_FuuJMNAJEeuAW7jFOT7t2A",
+    "parameterList" : [ {
+      "id" : "_57YYEfaWEeuL7P7Fn1UmUQ",
+      "name" : "TLD_LOG_TGT_Password"
+    }, {
+      "id" : "_57YYEvaWEeuL7P7Fn1UmUQ",
+      "name" : "TLD_LOG_TGT_Server"
+    }, {
+      "id" : "_57YYE_aWEeuL7P7Fn1UmUQ",
+      "name" : "TLD_LOG_TGT_Port"
+    }, {
+      "id" : "_57YYFPaWEeuL7P7Fn1UmUQ",
+      "name" : "TLD_LOG_TGT_AdditionalParams"
+    }, {
+      "id" : "_57YYFfaWEeuL7P7Fn1UmUQ",
+      "name" : "TLD_LOG_TGT_Login"
+    }, {
+      "id" : "_57YYFvaWEeuL7P7Fn1UmUQ",
+      "name" : "TLD_LOG_TGT_Database"
+    } ]
+  } ]
+}

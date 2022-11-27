@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_6JPN4PaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_BOFINANCE_Password" prompt="connection_BOFINANCE_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:liDgd2IXaVNX5q0J/MF58T1RbY5qb0D8yA0dcHQjgrZQxmjNLOAkP5Zt" xmi:id="_6JPN4faWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Server" prompt="connection_BOFINANCE_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.11.32" xmi:id="_6JPN4vaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Port" prompt="connection_BOFINANCE_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_6JPN4_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_AdditionalParams" prompt="connection_BOFINANCE_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6JPN5PaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Schema" prompt="connection_BOFINANCE_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FINANCE" xmi:id="_6JPN5faWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Login" prompt="connection_BOFINANCE_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="finance" xmi:id="_6JPN5vaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Sid" prompt="connection_BOFINANCE_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BOPROD" xmi:id="_6JPN5_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_6JPN6PaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_BOFINANCE_Password" prompt="connection_BOFINANCE_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:frywuFkOpkVDENCaeSscEp2jBP27yTYWfVb5rPeP4KazSY78876/zpyU" xmi:id="_6JPN6faWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Server" prompt="connection_BOFINANCE_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.11.32" xmi:id="_6JPN6vaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Port" prompt="connection_BOFINANCE_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_6JPN6_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_AdditionalParams" prompt="connection_BOFINANCE_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6JPN7PaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Schema" prompt="connection_BOFINANCE_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FINANCE" xmi:id="_6JPN7faWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Login" prompt="connection_BOFINANCE_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="finance" xmi:id="_6JPN7vaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Sid" prompt="connection_BOFINANCE_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BOPROD" xmi:id="_6JPN7_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_6JPN8PaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_BOFINANCE_Password" prompt="connection_BOFINANCE_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:uVjdVst+R1YigwRmCmMjAQXgf46cn6pTQtZa8um3ZUgoP44XtkjR/+Ht" xmi:id="_6JPN8faWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Server" prompt="connection_BOFINANCE_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.11.32" xmi:id="_6JPN8vaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Port" prompt="connection_BOFINANCE_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_6JPN8_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_AdditionalParams" prompt="connection_BOFINANCE_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6JPN9PaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Schema" prompt="connection_BOFINANCE_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FINANCE" xmi:id="_6JPN9faWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Login" prompt="connection_BOFINANCE_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="finance" xmi:id="_6JPN9vaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BOFINANCE_Sid" prompt="connection_BOFINANCE_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BOPROD" xmi:id="_6JPN9_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_be787396-f01b-420b-89ff-a5745b80d433"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hiXT/8NpL4DRD6uwFdxAzrrxj596YwtiUwqjCdXJyWajrbg5/FqXpmxgH9uCkH8m3iMZQ2kP22xe&#13;
+tAtCstTrHQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_35c63e7c-ad59-44de-bddd-8a6bddc15669"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kKpCqAxuoxrmSCUQxk2oWqhFwAGyTlYadcq5xHksgKUo3zMeTbH4Dkq7goe/GiCBIMF7gLvUO4G+&#13;
+/uDFQnfwQg==</DigestValue></Reference></SignedInfo><SignatureValue>ZEPt58jdnRBR0V9gNxLmRwNr0ycznhGi+bIL16gs2sPvjUCjSGkfJbkVvqxZE19yUkFK3jna9SiJ&#13;
+o464O4CfAsq7BAGtGao/EeesaTNNLwRk2F8/WirH+H4A98KDHWMwHDEMuzlH6e9EhCLqzDxO1nd4&#13;
+gDUr6N2DWjHUwa+KN3ibFAjIWv8Pz63GbthQOHCSB2XnPAkoCBs4KGmq2KpUbft4WJZJxudVPs/T&#13;
+w1PQkjqyTM2GLrCZ0oXaKfGEF6k3SGRa4Rf0LG7Q31GERSrtCbyQXKS2WuDdZi2q3fkhQE3dICEO&#13;
+lxZXBQEeE3gxHdZrEUVzvz98buk5AJTKHAE6jQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_35c63e7c-ad59-44de-bddd-8a6bddc15669" Target="#_be787396-f01b-420b-89ff-a5745b80d433"><Timestamp>2021-09-30 12:11:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

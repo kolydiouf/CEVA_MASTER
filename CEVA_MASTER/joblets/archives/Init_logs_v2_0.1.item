@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmi:version="2.0">
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="" internalId="_LIe4kEX8Eeyu_OHoZ49_Bg" name="log_fichier_log" prompt="log_fichier_log?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="log_applicatives.log"/>
+      <contextParameter comment="" internalId="_LIe4kUX8Eeyu_OHoZ49_Bg" name="log_identifiant_ajout_date" prompt="log_identifiant_ajout_date?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="##"/>
+      <contextParameter comment="" internalId="_LIe4kkX8Eeyu_OHoZ49_Bg" name="log_identifiant_ligne_separation" prompt="log_identifiant_ligne_separation?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="@@"/>
+      <contextParameter comment="" internalId="_LIe4lEX8Eeyu_OHoZ49_Bg" name="log_ligne_separation" prompt="log_ligne_separation?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="**************************************************************"/>
+      <contextParameter comment="" internalId="_LIe4lUX8Eeyu_OHoZ49_Bg" name="log_repertoire_log" prompt="log_repertoire_log?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="/talend/log/"/>
+    </context>
+    <context confirmationNeeded="false" name="Prod">
+      <contextParameter comment="" internalId="_LIe4lkX8Eeyu_OHoZ49_Bg" name="log_fichier_log" prompt="log_fichier_log?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="log_applicatives"/>
+      <contextParameter comment="" internalId="_LIe4l0X8Eeyu_OHoZ49_Bg" name="log_identifiant_ajout_date" prompt="log_identifiant_ajout_date?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="##"/>
+      <contextParameter comment="" internalId="_LIe4mEX8Eeyu_OHoZ49_Bg" name="log_identifiant_ligne_separation" prompt="log_identifiant_ligne_separation?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="@@"/>
+      <contextParameter comment="" internalId="_LIe4mkX8Eeyu_OHoZ49_Bg" name="log_ligne_separation" prompt="log_ligne_separation?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="**************************************************************"/>
+      <contextParameter comment="" internalId="_LIe4m0X8Eeyu_OHoZ49_Bg" name="log_repertoire_log" prompt="log_repertoire_log?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="/talend/log/"/>
+    </context>
+    <context confirmationNeeded="false" name="Dev">
+      <contextParameter comment="" internalId="_LIe4nEX8Eeyu_OHoZ49_Bg" name="log_fichier_log" prompt="log_fichier_log?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="log_applicatives"/>
+      <contextParameter comment="" internalId="_LIe4nUX8Eeyu_OHoZ49_Bg" name="log_identifiant_ajout_date" prompt="log_identifiant_ajout_date?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="##"/>
+      <contextParameter comment="" internalId="_LIe4nkX8Eeyu_OHoZ49_Bg" name="log_identifiant_ligne_separation" prompt="log_identifiant_ligne_separation?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="@@"/>
+      <contextParameter comment="" internalId="_LIe4oEX8Eeyu_OHoZ49_Bg" name="log_ligne_separation" prompt="log_ligne_separation?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="**************************************************************"/>
+      <contextParameter comment="" internalId="_LIe4oUX8Eeyu_OHoZ49_Bg" name="log_repertoire_log" prompt="log_repertoire_log?" promptNeeded="false" repositoryContextId="_QQDEwEX7Eeyu_OHoZ49_Bg" type="id_String" value="/talend/log/"/>
+    </context>
+    <parameters>
+      <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/tools/apps/Talend-Studio-7.3/workspace/in.csv&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+      <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:HX2oAgL2RtnAKWlhzyrFj4cqxLjanYhPVziLWH6O"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+      <routinesParameter id="_vyMjEPBrEeuTG6LvPqRJNg" name="DQTechnical"/>
+      <routinesParameter id="_vxYDsPBrEeuTG6LvPqRJNg" name="DataMasking"/>
+      <routinesParameter id="_vr2qgPBrEeuTG6LvPqRJNg" name="DataOperation"/>
+      <routinesParameter id="_vx5oIPBrEeuTG6LvPqRJNg" name="DataQualityDependencies"/>
+      <routinesParameter id="_vxv3IPBrEeuTG6LvPqRJNg" name="DataQuality"/>
+      <routinesParameter id="_vyEAMPBrEeuTG6LvPqRJNg" name="DqStringHandling"/>
+      <routinesParameter id="_vwGRUPBrEeuTG6LvPqRJNg" name="Mathematical"/>
+      <routinesParameter id="_vwR3gPBrEeuTG6LvPqRJNg" name="Numeric"/>
+      <routinesParameter id="_vwZzUPBrEeuTG6LvPqRJNg" name="Relational"/>
+      <routinesParameter id="_vxO5wPBrEeuTG6LvPqRJNg" name="SQLike"/>
+      <routinesParameter id="_vwkLYPBrEeuTG6LvPqRJNg" name="StringHandling"/>
+      <routinesParameter id="_vwt8YPBrEeuTG6LvPqRJNg" name="TalendDataGenerator"/>
+      <routinesParameter id="_vw5ikPBrEeuTG6LvPqRJNg" name="TalendDate"/>
+      <routinesParameter id="_vxIMEPBrEeuTG6LvPqRJNg" name="TalendStringUtil"/>
+      <routinesParameter id="_vxA3UPBrEeuTG6LvPqRJNg" name="TalendString"/>
+    </parameters>
+    <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNormalize_1"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="NORMALIZE_COLUMN" value="message"/>
+      <elementParameter field="TEXT" name="ITEMSEPARATOR" value="&quot;\\|&quot;"/>
+      <elementParameter field="CHECK" name="DEDUPLICATE" value="false"/>
+      <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="ESCAPE_CHAR" show="false" value="ESCAPE_MODE_DOUBLED"/>
+      <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;\&quot;&quot;"/>
+      <elementParameter field="CHECK" name="DISCARD_TRAILING_EMPTY_STR" value="false"/>
+      <elementParameter field="CHECK" name="TRIM" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tNormalize_1">
+        <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_2"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tReplicate_2">
+        <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tReplace" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplace_1"/>
+      <elementParameter field="CHECK" name="SIMPLE_MODE" value="true"/>
+      <elementParameter field="LABEL" name="SIMPLEMODE_OLDLABLE" show="false" value="Simple mode works with regex expression(in last version)"/>
+      <elementParameter field="TABLE" name="SUBSTITUTIONS">
+        <elementValue elementRef="INPUT_COLUMN" value="message"/>
+        <elementValue elementRef="SEARCH_PATTERN" value="context.log_identifiant_ligne_separation"/>
+        <elementValue elementRef="REPLACE_STRING" value="context.log_ligne_separation"/>
+        <elementValue elementRef="WHOLE_WORD" value="false"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+        <elementValue elementRef="USE_GLOB" value="false"/>
+        <elementValue elementRef="COMMENT" value=""/>
+        <elementValue elementRef="INPUT_COLUMN" value="message"/>
+        <elementValue elementRef="SEARCH_PATTERN" value="context.log_identifiant_ajout_date"/>
+        <elementValue elementRef="REPLACE_STRING" value="TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;) + &quot; | &quot;"/>
+        <elementValue elementRef="WHOLE_WORD" value="false"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+        <elementValue elementRef="USE_GLOB" value="false"/>
+        <elementValue elementRef="COMMENT" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="STRICT_MATCH" show="false" value="true"/>
+      <elementParameter field="CHECK" name="ADVANCED_MODE" value="false"/>
+      <elementParameter field="TABLE" name="ADVANCED_SUBST" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tReplace_1">
+        <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
+      <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+      <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+      <elementParameter field="FILE" name="FILENAME" value="context.log_repertoire_log + context.log_fichier_log"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+      <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+      <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot; &quot;"/>
+      <elementParameter field="CHECK" name="APPEND" value="true"/>
+      <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+      <elementParameter field="CHECK" name="COMPRESS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+      <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+      <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+      <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+      <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+      <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+      <elementParameter field="CHECK" name="CREATE" value="true"/>
+      <elementParameter field="CHECK" name="SPLIT" value="false"/>
+      <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+      <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+      <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+      <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+      <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+      <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" show="false" value="true"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;Fic log"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileOutputDelimited_2">
+        <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tReplace" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="256">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplace_2"/>
+      <elementParameter field="CHECK" name="SIMPLE_MODE" value="true"/>
+      <elementParameter field="LABEL" name="SIMPLEMODE_OLDLABLE" show="false" value="Simple mode works with regex expression(in last version)"/>
+      <elementParameter field="TABLE" name="SUBSTITUTIONS">
+        <elementValue elementRef="INPUT_COLUMN" value="message"/>
+        <elementValue elementRef="SEARCH_PATTERN" value="context.log_identifiant_ligne_separation"/>
+        <elementValue elementRef="REPLACE_STRING" value="context.log_ligne_separation"/>
+        <elementValue elementRef="WHOLE_WORD" value="false"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+        <elementValue elementRef="USE_GLOB" value="false"/>
+        <elementValue elementRef="COMMENT" value=""/>
+        <elementValue elementRef="INPUT_COLUMN" value="message"/>
+        <elementValue elementRef="SEARCH_PATTERN" value="context.log_identifiant_ajout_date"/>
+        <elementValue elementRef="REPLACE_STRING" value="&quot;&quot;"/>
+        <elementValue elementRef="WHOLE_WORD" value="false"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+        <elementValue elementRef="USE_GLOB" value="false"/>
+        <elementValue elementRef="COMMENT" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="STRICT_MATCH" show="false" value="true"/>
+      <elementParameter field="CHECK" name="ADVANCED_MODE" value="false"/>
+      <elementParameter field="TABLE" name="ADVANCED_SUBST" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tReplace_2">
+        <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="256">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_2"/>
+      <elementParameter field="RADIO" name="DEV_LOG" value="true"/>
+      <elementParameter field="RADIO" name="BUSINESS_LOG" value="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="tmc_log.message"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="30000"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;log_TMC"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJobLog_2">
+        <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <connection connectorName="FLOW" label="message" lineStyle="0" metaname="INPUT_1" offsetLabelX="0" offsetLabelY="0" source="INPUT_1" target="tNormalize_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="message"/>
+    </connection>
+    <connection connectorName="FLOW" label="ligne_decoupees" lineStyle="0" metaname="tNormalize_1" offsetLabelX="0" offsetLabelY="0" source="tNormalize_1" target="tReplicate_2">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="horodatage"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ligne_decoupees"/>
+    </connection>
+    <connection connectorName="FLOW" label="fic_replace" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_2" target="tReplace_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="fic_replace"/>
+    </connection>
+    <connection connectorName="FLOW" label="tmc_replace" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_2" target="tReplace_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tmc_replace"/>
+    </connection>
+    <connection connectorName="FLOW" label="fichier_log" lineStyle="0" metaname="tReplace_1" offsetLabelX="0" offsetLabelY="0" source="tReplace_1" target="tFileOutputDelimited_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="fichier_log"/>
+    </connection>
+    <connection connectorName="FLOW" label="tmc_log" lineStyle="0" metaname="tReplace_2" offsetLabelX="0" offsetLabelY="0" source="tReplace_2" target="tJobLog_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tmc_log"/>
+    </connection>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="INPUT_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Découpage du message en entrée sur le séparateur &quot;|&quot;.  Envoie de la log découpé dans un fichier de log et dans la TMC. "/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+      <metadata connector="FLOW" name="INPUT_1">
+        <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5b0457fc-3c87-4164-a10c-801a372d1b86"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>p75C5ujPVQo+6TXqUk/LLpAbiesNBpxcBAu621N2doEOTl3I2RDZeX2vT2suwQIMTDHlLaeCavHu&#13;
+uJTOD0KFvA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1cae7d91-2bb7-4b8e-9a7d-b15354bc6869"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JgVrvNEH2HyhsO9xYJUleQz45wEpxDEtf6UiHA9QnRZt+oESQNTtY/uByAfJteijyOQsP4bpP8zV&#13;
+GqBH/iRQpQ==</DigestValue></Reference></SignedInfo><SignatureValue>PzA7aA7e0I4rDY7NkUVon4v7/9qNj2Bo21/uqqpgCuYhcoblhTKf1fB7IIFfblrqPV64V3GaWljb&#13;
+FCxdG3Ic+ozsYTO/OIFkHSLbhStpTs2CSasOHW8IUI1kTaiOaGURaCqupGP+yWsCi+H05ufjSnqu&#13;
+jpaCDbruBP7q2pBq+puNZ8QyH7i1xArlgrn+RKI67k78UrOnzXpGDq65nCc8UHO8RQrrSgoKf7Wq&#13;
+0snBlEn/zC/QB9o5aQ9Y2jEFPotayePUiCh7bQ5U4b0MX4BGDiHyZtnCn6jm+NNZjyOzKskverrc&#13;
+FCjv+H8kGBPjM7imXjeJJzmu2O9wgBB+8A7fEw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1cae7d91-2bb7-4b8e-9a7d-b15354bc6869" Target="#_5b0457fc-3c87-4164-a10c-801a372d1b86"><Timestamp>2021-12-02 13:17:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

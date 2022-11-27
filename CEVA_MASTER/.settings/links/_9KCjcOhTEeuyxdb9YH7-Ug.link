@@ -1,0 +1,29 @@
+{
+  "itemId" : "_9KCjcOhTEeuyxdb9YH7-Ug",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_aHJL8OhUEeuyxdb9YH7-Ug",
+    "parameterList" : [ {
+      "id" : "_6M0tYfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Port"
+    }, {
+      "id" : "_6M0tYvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Password"
+    }, {
+      "id" : "_6M0tY_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Schema"
+    }, {
+      "id" : "_6M0tZPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Server"
+    }, {
+      "id" : "_6M0tZfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_AdditionalParams"
+    }, {
+      "id" : "_6M0tZvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Login"
+    }, {
+      "id" : "_6M0tZ_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Sid"
+    } ]
+  } ]
+}

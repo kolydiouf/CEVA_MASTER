@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_6Q9mgPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Password" prompt="DWHEUP_BIFR_SRC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:naGSsNdIFNs9WdEJrLiTzA81yNY9oGnxGZfiEgfC3x2tv1cDERQf" xmi:id="_6Q9mgfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Server" prompt="DWHEUP_BIFR_SRC_Server?" promptNeeded="false" type="id_String" value="172.20.10.34" xmi:id="_6Q9mgvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Port" prompt="DWHEUP_BIFR_SRC_Port?" promptNeeded="false" type="id_String" value="1622" xmi:id="_6Q9mg_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_AdditionalParams" prompt="DWHEUP_BIFR_SRC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mhPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Schema" prompt="DWHEUP_BIFR_SRC_Schema?" promptNeeded="false" type="id_String" value="BIFR" xmi:id="_6Q9mhfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Login" prompt="DWHEUP_BIFR_SRC_Login?" promptNeeded="false" type="id_String" value="BIFR" xmi:id="_6Q9mhvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Sid" prompt="DWHEUP_BIFR_SRC_Sid?" promptNeeded="false" type="id_String" value="DWHEUP" xmi:id="_6Q9mh_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_6Q9miPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Password" prompt="DWHEUP_BIFR_SRC_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_6Q9mifaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Server" prompt="DWHEUP_BIFR_SRC_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mivaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Port" prompt="DWHEUP_BIFR_SRC_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mi_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_AdditionalParams" prompt="DWHEUP_BIFR_SRC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mjPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Schema" prompt="DWHEUP_BIFR_SRC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mjfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Login" prompt="DWHEUP_BIFR_SRC_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mjvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Sid" prompt="DWHEUP_BIFR_SRC_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mj_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_6Q9mkPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Password" prompt="DWHEUP_BIFR_SRC_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_6Q9mkfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Server" prompt="DWHEUP_BIFR_SRC_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mkvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Port" prompt="DWHEUP_BIFR_SRC_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mk_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_AdditionalParams" prompt="DWHEUP_BIFR_SRC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mlPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Schema" prompt="DWHEUP_BIFR_SRC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mlfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Login" prompt="DWHEUP_BIFR_SRC_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9mlvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="DWHEUP_BIFR_SRC_Sid" prompt="DWHEUP_BIFR_SRC_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_6Q9ml_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2f491d9e-ff75-413a-8f3e-179a0fef9883"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IkZzM1nMW66DxX4ESOEq6F13RBcZAb3XNftB5+j7vkz2ChVU8Bd2eSq/ENgnq09FyLDppaII9eMA&#13;
+mDgObnSSPQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_36674959-830c-4667-bcfd-476d29ce5535"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cnANrcjOjM2L4X5sy6eSCNs0MOqz5jq8ngtctrRN/Al5e1JGUy90MW3gMVczpMhkD1fiQF7UopZ8&#13;
+cFXYbEZnEA==</DigestValue></Reference></SignedInfo><SignatureValue>A8dHzSnjP3QDP+a4FPxTP935LUNZKd3+Ii+50o93tC9ICVITSKuCEl6LZ55PWdTEWOg+M3gu9J6y&#13;
+q4eDcQLQ3UrgH0/dStUBQtR4VkUDm/JB8nHvpVrHTkMfmUoPOEKHYa19qaxx7tgbZ4Pr/YepdIu6&#13;
+8RCIGGN5LMhchVJFCsD2nDPR5pfhFE8IdecN+/Eh5VN9kIRzDx6c5SikEqLTwZCkOQG9hGuOt0GL&#13;
+6GVsS+pCNfX6zc32Brm9cPV4+8wlaOMhNCzbxh/xrG49X/8E8jMLQ9QEqBhc+7SwYmixUArr+aPa&#13;
+h7BnZ/Fa25D5maXMXaA1XmTH5pZF9jzEKy2DHQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_36674959-830c-4667-bcfd-476d29ce5535" Target="#_2f491d9e-ff75-413a-8f3e-179a0fef9883"><Timestamp>2021-08-06 09:15:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

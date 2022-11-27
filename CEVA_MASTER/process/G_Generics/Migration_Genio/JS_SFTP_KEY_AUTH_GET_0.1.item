@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="SFTP_login" prompt="SFTP_login?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value=""/>
+    <contextParameter comment="" name="SFTP_pwd" prompt="SFTP_pwd?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Password" value=""/>
+    <contextParameter comment="" name="SFTP_host" prompt="SFTP_host?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value=""/>
+    <contextParameter comment="" name="SFTP_remotedir" prompt="SFTP_remotedir?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value=""/>
+    <contextParameter comment="" name="SFTP_localdir" prompt="SFTP_localdir?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value=""/>
+    <contextParameter comment="" name="SFTP_flag_del_when_received" prompt="SFTP_flag_del_when_received?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SFTP_fileMask" prompt="SFTP_fileMask?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value=""/>
+    <contextParameter comment="" name="SFTP_port" prompt="SFTP_port?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SFTP_key_passphrase" prompt="SFTP_key_passphrase?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Password" value=""/>
+    <contextParameter comment="" name="SFTP_private_key" prompt="SFTP_private_key?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="SFTP_login" prompt="SFTP_login?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="CEVAMOVEIT"/>
+    <contextParameter comment="" name="SFTP_pwd" prompt="SFTP_pwd?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Password" value=""/>
+    <contextParameter comment="" name="SFTP_host" prompt="SFTP_host?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="mft-ftp.cegedim-srh.net"/>
+    <contextParameter comment="" name="SFTP_remotedir" prompt="SFTP_remotedir?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="/Distribution/SRH/clients/ceva/courant/OUT/PAYE/"/>
+    <contextParameter comment="" name="SFTP_localdir" prompt="SFTP_localdir?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="\\tld-dev-exec1\project_resources\JDE_DATA_TRANSFER\TEAMS_PAYE_TO_JDE\FromFTP\"/>
+    <contextParameter comment="" name="SFTP_flag_del_when_received" prompt="SFTP_flag_del_when_received?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SFTP_fileMask" prompt="SFTP_fileMask?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="*.txt"/>
+    <contextParameter comment="" name="SFTP_port" prompt="SFTP_port?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SFTP_key_passphrase" prompt="SFTP_key_passphrase?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Password" value=""/>
+    <contextParameter comment="" name="SFTP_private_key" prompt="SFTP_private_key?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="SFTP_login" prompt="SFTP_login?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="CEVAMOVEIT"/>
+    <contextParameter comment="" name="SFTP_pwd" prompt="SFTP_pwd?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Password" value=""/>
+    <contextParameter comment="" name="SFTP_host" prompt="SFTP_host?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="mft-ftp.cegedim-srh.net"/>
+    <contextParameter comment="" name="SFTP_remotedir" prompt="SFTP_remotedir?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="/Distribution/SRH/clients/ceva/courant/OUT/PAYE/"/>
+    <contextParameter comment="" name="SFTP_localdir" prompt="SFTP_localdir?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="\\tld-dev-exec1\project_resources\JDE_DATA_TRANSFER\TEAMS_PAYE_TO_JDE\FromFTP\"/>
+    <contextParameter comment="" name="SFTP_flag_del_when_received" prompt="SFTP_flag_del_when_received?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SFTP_fileMask" prompt="SFTP_fileMask?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value="*.txt"/>
+    <contextParameter comment="" name="SFTP_port" prompt="SFTP_port?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SFTP_key_passphrase" prompt="SFTP_key_passphrase?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_Password" value=""/>
+    <contextParameter comment="" name="SFTP_private_key" prompt="SFTP_private_key?" promptNeeded="false" repositoryContextId="_5i3lUKzzEeuur_R3jBM8YA" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="192"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:1rH3uMZoQdN7Q/AgY+3uQyPfnEt0urVSUAHUGmkN"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/6.4.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vEG0eKSueK9KHfVuHqsf6re9n7XtS6ZY4pZt+iJF"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_tTLSACW_EeuC8ZitBQrV9g" name="DQTechnical"/>
+    <routinesParameter id="_tS4XGCW_EeuC8ZitBQrV9g" name="DataMasking"/>
+    <routinesParameter id="_tSbrKCW_EeuC8ZitBQrV9g" name="DataOperation"/>
+    <routinesParameter id="_tTCIFCW_EeuC8ZitBQrV9g" name="DataQualityDependencies"/>
+    <routinesParameter id="_tTCIECW_EeuC8ZitBQrV9g" name="DataQuality"/>
+    <routinesParameter id="_tTCIGiW_EeuC8ZitBQrV9g" name="DqStringHandling"/>
+    <routinesParameter id="_tSlcIyW_EeuC8ZitBQrV9g" name="Mathematical"/>
+    <routinesParameter id="_tSlcJyW_EeuC8ZitBQrV9g" name="Numeric"/>
+    <routinesParameter id="_tSlcKyW_EeuC8ZitBQrV9g" name="Relational"/>
+    <routinesParameter id="_tSbrJCW_EeuC8ZitBQrV9g" name="SQLike"/>
+    <routinesParameter id="_tSlcLyW_EeuC8ZitBQrV9g" name="StringHandling"/>
+    <routinesParameter id="_tSumECW_EeuC8ZitBQrV9g" name="TalendDataGenerator"/>
+    <routinesParameter id="_tSumFCW_EeuC8ZitBQrV9g" name="TalendDate"/>
+    <routinesParameter id="_tS4XFCW_EeuC8ZitBQrV9g" name="TalendStringUtil"/>
+    <routinesParameter id="_tS4XECW_EeuC8ZitBQrV9g" name="TalendString"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;Start job&#9;&#9;: &quot; + jobName);&#10;System.out.println(&quot;Version&#9;&#9;&#9;: &quot; + jobVersion);&#10;System.out.println(&quot;Context&#9;&#9;&#9;: &quot; + contextStr);&#10;System.out.println(&quot;Start Execution : &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="StartJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Problème de connexion SFTP au serveur &quot;+context.SFTP_host"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tFTPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="context.SFTP_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.SFTP_port"/>
+    <elementParameter field="TEXT" name="USER" value="context.SFTP_login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:a662wJXVzzxO+JTYQoosFq0xxfs7wq2yjd3KbVrv17a8LPACWCs5aml5D5s="/>
+    <elementParameter field="CHECK" name="SFTP" value="true"/>
+    <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
+    <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:FDaoQ+u7kuAPu7hRahuF5anb8/unUFJbETv0EKEW8G8PfdeH"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PUBLICKEY"/>
+    <elementParameter field="FILE" name="PRIVATEKEY" value="context.SFTP_private_key"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:8qMGbyjZGaDw4BXUsoSPrpvSYfsd8bxu8F2Ev/1936iNl2u5gmpWboGbhrdaah/I98rAxRHmfA=="/>
+    <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" show="false" value="PASSIVE"/>
+    <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" show="false" value="IMPLICIT"/>
+    <elementParameter field="CHECK" name="USE_ENCODING" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;1080&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:6+qcJTx+WCVWcj6yL6pmJeiCyaqixEIghFYyPGkh"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TEXT" name="FTPS_PORT" value="990"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.getCurrentDate())+ &quot; Connected successfully to the SFTP server&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tFTPFileList" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="192" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPFileList_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="21"/>
+    <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;anonymous&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:YaxL6R2Wy7Q4kgf9h1yRgY6Rt5d4KbbetgKdgBLdAq0ZdglGXKrU"/>
+    <elementParameter field="CHECK" name="SFTP" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" show="false" value="PASSWORD"/>
+    <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;/.ssh/id_dsa&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:W/0mt8XO+gu/XskC1omS/ykaW8MkAw7mJaUAWfaNEzuxdzrw"/>
+    <elementParameter field="TEXT" name="REMOTEDIR" value="context.SFTP_remotedir"/>
+    <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="DIR_FULL" value="false"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="context.SFTP_fileMask"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" show="false" value="PASSIVE"/>
+    <elementParameter field="CHECK" name="USE_ENCODING" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;1080&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:rNMxow2LvdBkHR9OTwOOrKt8jY+yfJ7D4Kv3hztQ"/>
+    <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFTPGet" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPGet_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="21"/>
+    <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;anonymous&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:+dG81xeXOQZC3ObCAbyO7L8cHCeHwIsmLvCF17l9PlQUdWuPy7NH"/>
+    <elementParameter field="CHECK" name="SFTP" show="false" value="false"/>
+    <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" show="false" value="PASSWORD"/>
+    <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;/.ssh/id_dsa&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:jPjhpWH0Y4rASuz8JQs73qOBoI0VGY6LH7Vl0YYd62N1QXJj"/>
+    <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:mJVCRYEJDfYSYB5tQzJSMiP+Xz3Fi7FbsmvUs5gAG2i9TRQU"/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.SFTP_localdir"/>
+    <elementParameter field="TEXT" name="REMOTEDIR" value="context.SFTP_remotedir"/>
+    <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="MODE" show="false" value="ascii"/>
+    <elementParameter field="CLOSED_LIST" name="OVERWRITE" show="false" value="never"/>
+    <elementParameter field="CHECK" name="APPEND" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="SFTPOVERWRITE" value="overwrite"/>
+    <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="((String)globalMap.get(&quot;tFTPFileList_1_CURRENT_FILE&quot;))"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" show="false" value="PASSIVE"/>
+    <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" show="false" value="IMPLICIT"/>
+    <elementParameter field="CHECK" name="USE_ENCODING" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;1080&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:hbnVL43hre86N5F0hr/YKmRroGI4aPLkJ9FyJk5a"/>
+    <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_MESSAGE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TEXT" name="FTPS_PORT" value="990"/>
+    <metadata connector="FLOW" name="tFTPGet_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.getCurrentDate())+ &quot;file &quot;+((String)globalMap.get(&quot;tFTPFileList_1_CURRENT_FILEPATH&quot;)) + &quot; has been successfully downloaded and store in &quot;+ context.SFTP_localdir);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tFTPDelete" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPDelete_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="21"/>
+    <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;anonymous&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:7bVnhOa4+v7Mwgj0ONqAGEphrjz7/TKhkIyEls11/Yei2ZA29R9L"/>
+    <elementParameter field="CHECK" name="SFTP" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" show="false" value="PASSWORD"/>
+    <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;/.ssh/id_dsa&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:mBhZiRYiyzMo0COXOQwo7aT7Zdt/XWqHg8NOwAIIKlWUIGuE"/>
+    <elementParameter field="TEXT" name="REMOTEDIR" value="context.SFTP_remotedir"/>
+    <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="((String)globalMap.get(&quot;tFTPFileList_1_CURRENT_FILE&quot;))"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="TARGET_TYPE" value="FILE"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" show="false" value="PASSIVE"/>
+    <elementParameter field="CHECK" name="USE_ENCODING" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;1080&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:dOuPwd1erggPPYssJEGYU8Zba++5b9GmCFFDnTYX"/>
+    <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFTPDelete_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.getCurrentDate())+ &quot;file &quot;+((String)globalMap.get(&quot;tFTPFileList_1_CURRENT_FILE&quot;))+ &quot; deleted on SFTP Server :&quot;+context.SFTP_host+ &quot;, remotedirectory:&quot;+ context.SFTP_remotedir);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="672">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;End job&#9;&#9;&#9;: &quot; + jobName);&#10;System.out.println(&quot;End Execution&#9;: &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="EndJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_5"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_8"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.getCurrentDate())+ &quot; Connection by key to the SFTP &quot; + context.SFTP_host);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_8"/>
+  </node>
+  <node componentName="tFTPClose" componentVersion="2.0" offsetLabelX="0" offsetLabelY="0" posX="192" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tJava_8">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tFTPConnection_1" offsetLabelX="0" offsetLabelY="0" source="tFTPConnection_1" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobError1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPConnection_1" offsetLabelX="0" offsetLabelY="0" source="tFTPConnection_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tFTPFileList_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFTPFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFTPFileList_1" target="tFTPGet_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFTPFileList_1" target="tFTPClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFTPGet_1" offsetLabelX="0" offsetLabelY="0" source="tFTPGet_1" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJava_3" offsetLabelX="12" offsetLabelY="50" source="tJava_3" target="tFTPDelete_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="(context.SFTP_flag_del_when_received)==1 &amp;&amp; ((Integer)globalMap.get(&quot;tFTPGet_1_NB_FILE&quot;))&gt;0"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFTPDelete_1" offsetLabelX="0" offsetLabelY="0" source="tFTPDelete_1" target="tJava_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_8" offsetLabelX="0" offsetLabelY="0" source="tJava_8" target="tFTPConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk7"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPClose_1" offsetLabelX="0" offsetLabelY="0" source="tFTPClose_1" target="tJava_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <note opaque="true" posX="352" posY="-192" sizeHeight="225" sizeWidth="481" text="Transmit following context values from Job Master in the tRunJob :&#13;&#10;- SFTP_login&#13;&#10;- SFTP_pwd&#13;&#10;- SFTP_host&#13;&#10;- SFTP_remotedir&#13;&#10;- SFTP_localdir&#13;&#10;- SFTP_flag_del_when_received (0/1)&#13;&#10;- SFTP_fileMask&#13;&#10;- SFTP_port&#13;&#10;- SFTP_private_key&#13;&#10;- SFTP_key_passphrase"/>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPConnection_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="SFTP connection by pwd"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Information"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPFileList_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Get files"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Information"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPDelete_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Delete files on SFTP"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Information"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_8"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Information"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPClose_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Close connection"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_406f2d5d-8064-4beb-a590-ea54a442e2c9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>z9uh2aUs1ZT2p53JYOkywsDPU36AQ1v62UXX8+PF9GHQIuCRYrH3C8acIzrgwqQ5ScKKOJZWfDZi&#13;
+y8qBRW3QJA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1cb44bad-72f5-4775-bf90-09b1abf048db"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>w9chzhBj/uMKJICJuMlPWWBAi4wkwDFOjWHXqFZMVajOcy2D+MqeVnr4xYn+AnVdQ/fPfKw/voTU&#13;
++Pk/x0rYUA==</DigestValue></Reference></SignedInfo><SignatureValue>EFJmBXdkXLt5ibhx0v2UEycKgu+2WbTxSXMtsMLnB0NYaK7NYwtHv9NHXdWa2h6HkuDFlEUf0hQX&#13;
+wRRvVaQW7ZVVnX3sPeBes6V4UfaYw5ECJ/Mcp2fEcA343q/Oe4Dv33k1YZj+xNGBxDQ3SrIculX9&#13;
+cqyMyh2nBuAgXSrryg7rxmR4Bv6HJxreGTrDiyJP4puwv6G9AKUa/F6lUpy2BkKl22czDK2x5US+&#13;
+7hn/YnJiJZwW3jIZot+Mj8AGjWECFWwhglI8tJCMFEFJdxKZPZUM6FJULgkmcuGreWupQpVeUi+/&#13;
+3BqKA+/8ZGTSFpSHJ/mrc8xJgGQHLBqI1xDC2g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1cb44bad-72f5-4775-bf90-09b1abf048db" Target="#_406f2d5d-8064-4beb-a590-ea54a442e2c9"><Timestamp>2021-10-07 12:45:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,118 @@
+{
+  "itemId" : "_geUbsCSaEemOhf2mi1YRAg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_1HPeQDe-EeyZu9mrT5jhiA",
+    "parameterList" : [ {
+      "id" : "_N99-kFZ8EeydHYl_oNXBmQ",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_N99-klZ8EeydHYl_oNXBmQ",
+      "name" : "ConfigFieldSeparator"
+    }, {
+      "id" : "_N99-lVZ8EeydHYl_oNXBmQ",
+      "name" : "DataDir"
+    }, {
+      "id" : "_N99-llZ8EeydHYl_oNXBmQ",
+      "name" : "debugMode"
+    }, {
+      "id" : "_N99-mFZ8EeydHYl_oNXBmQ",
+      "name" : "LogDuration"
+    }, {
+      "id" : "_N99-mlZ8EeydHYl_oNXBmQ",
+      "name" : "projectDir"
+    }, {
+      "id" : "_N99-m1Z8EeydHYl_oNXBmQ",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_N99-nFZ8EeydHYl_oNXBmQ",
+      "name" : "talendDir"
+    }, {
+      "id" : "_N99-nVZ8EeydHYl_oNXBmQ",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_1HPeQDe-EeyZu9mrT5jhiA",
+    "parameterList" : [ {
+      "id" : "_N9_zz1Z8EeydHYl_oNXBmQ",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_N9_z0VZ8EeydHYl_oNXBmQ",
+      "name" : "ConfigFieldSeparator"
+    }, {
+      "id" : "_N9_z1FZ8EeydHYl_oNXBmQ",
+      "name" : "DataDir"
+    }, {
+      "id" : "_N9_z1VZ8EeydHYl_oNXBmQ",
+      "name" : "debugMode"
+    }, {
+      "id" : "_N9_z11Z8EeydHYl_oNXBmQ",
+      "name" : "LogDuration"
+    }, {
+      "id" : "_N9_z2VZ8EeydHYl_oNXBmQ",
+      "name" : "projectDir"
+    }, {
+      "id" : "_N9_z2lZ8EeydHYl_oNXBmQ",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_N9_z21Z8EeydHYl_oNXBmQ",
+      "name" : "talendDir"
+    }, {
+      "id" : "_N9_z3FZ8EeydHYl_oNXBmQ",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_1HPeQDe-EeyZu9mrT5jhiA",
+    "parameterList" : [ {
+      "id" : "_N9_z8FZ8EeydHYl_oNXBmQ",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_N9_z8lZ8EeydHYl_oNXBmQ",
+      "name" : "ConfigFieldSeparator"
+    }, {
+      "id" : "_N9_z9VZ8EeydHYl_oNXBmQ",
+      "name" : "DataDir"
+    }, {
+      "id" : "_N9_z9lZ8EeydHYl_oNXBmQ",
+      "name" : "debugMode"
+    }, {
+      "id" : "_N9_z-FZ8EeydHYl_oNXBmQ",
+      "name" : "LogDuration"
+    }, {
+      "id" : "_N9_z-lZ8EeydHYl_oNXBmQ",
+      "name" : "projectDir"
+    }, {
+      "id" : "_N9_z-1Z8EeydHYl_oNXBmQ",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_N9_z_FZ8EeydHYl_oNXBmQ",
+      "name" : "talendDir"
+    }, {
+      "id" : "_N9_z_VZ8EeydHYl_oNXBmQ",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  } ]
+}

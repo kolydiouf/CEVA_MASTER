@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_ZmR5AfaWEeuL7P7Fn1UmUQ" label="CEVA_MASTER" description="Project Reference" language="java" technicalLabel="CEVA_MASTER" author="_ZmR5AvaWEeuL7P7Fn1UmUQ" productVersion="Talend Cloud API Services Platform-7.3.1.20210818_1049-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/TalendGitceva/CEVA_MASTER.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_ZsJQcPaWEeuL7P7Fn1UmUQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_ZmR5AvaWEeuL7P7Fn1UmUQ" login="emmanuel.prevot-external@ceva.com" firstName="Emmanuel" lastName="PREVOT" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8QPaYEeuop_YqUN17Xg" login="jean-loupdubin@ceva.com" firstName="Jean-Loup" lastName="Dubin" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8QfaYEeuop_YqUN17Xg" login="bertrand.blanjacquier-external@ceva.com" firstName="Bertrand" lastName="Blanjacquier" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8QvaYEeuop_YqUN17Xg" login="remy.denoyer@ceva.com" firstName="Remy" lastName="Denoyer" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8Q_aYEeuop_YqUN17Xg" login="laurent.riviere@ceva.com" firstName="Laurent" lastName="Riviere" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8RPaYEeuop_YqUN17Xg" login="christophe.pozo@ceva.com" firstName="Christophe" lastName="Pozo" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8RfaYEeuop_YqUN17Xg" login="security@ceva.com" firstName="Security" lastName="Security" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8RvaYEeuop_YqUN17Xg" login="exploit.vega@ceva.com" firstName="Exploitation" lastName="Vega" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8R_aYEeuop_YqUN17Xg" login="claire.papet@ceva.com" firstName="Claire" lastName="Papet" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8SPaYEeuop_YqUN17Xg" login="didier.vignes@ceva.com" firstName="Didier" lastName="Vignes" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8SfaYEeuop_YqUN17Xg" login="devuser1@ceva.com" firstName="Dev" lastName="User1" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8SvaYEeuop_YqUN17Xg" login="devuser2@ceva.com" firstName="Dev" lastName="User2" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8S_aYEeuop_YqUN17Xg" login="devuser3@ceva.com" firstName="Dev" lastName="User3" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8TPaYEeuop_YqUN17Xg" login="devuser5@ceva.com" firstName="Dev" lastName="User5" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8TfaYEeuop_YqUN17Xg" login="devuser6@ceva.com" firstName="Dev" lastName="User6" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8TvaYEeuop_YqUN17Xg" login="devuser7@ceva.com" firstName="Dev" lastName="User7" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8T_aYEeuop_YqUN17Xg" login="devuser8@ceva.com" firstName="Dev" lastName="User8" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8UPaYEeuop_YqUN17Xg" login="kirnusha.seesaranlobin@ceva.com" firstName="kirnusha" lastName="seesaranlobin" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8UfaYEeuop_YqUN17Xg" login="tatiana.kolesnikova-external@ceva.com" firstName="Tatiana" lastName="Kolesnikova" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8UvaYEeuop_YqUN17Xg" login="ali.geviteam-external@ceva.com" firstName="Ali" lastName="Naama" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8U_aYEeuop_YqUN17Xg" login="jose.perez-external@ceva.com" firstName="jose" lastName="Perez" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gct8VPaYEeuop_YqUN17Xg" login="robin.fabre-external@ceva.com" firstName="Robin" lastName="Fabre" type="DQ"/>
+  <TalendProperties:User xmi:id="_qwRvABq1Eey9o72svBc9Aw" login="ha-thang.nguyen-external@ceva.com" firstName="HA -THANG" lastName="NGUYEN" type="DQ"/>
+  <TalendProperties:User xmi:id="_qwRvARq1Eey9o72svBc9Aw" login="azeddine.el-guennouni-external@ceva.com" firstName="Azeddine" lastName="el-guennouni" type="DQ"/>
+  <TalendProperties:User xmi:id="_qwRvAhq1Eey9o72svBc9Aw" login="amaury.lafeuillade-external@ceva.com" firstName="Amaury" lastName="LAFEUILLADE" type="DQ"/>
+  <TalendProperties:User xmi:id="_qwRvAxq1Eey9o72svBc9Aw" login="evelyne.rouquet-external@ceva.com" firstName="Evelyne" lastName="Rouquet" type="DQ"/>
+  <TalendProperties:User xmi:id="_RydUsCFGEeyanMrc33yjJQ" login="fares.maddi-external@ceva.com" firstName="Fares" lastName="MADDI" type="DQ"/>
+  <TalendProperties:User xmi:id="_Gz4r4CHWEeyRN-19lPpw3w" login="brice.cardon-external@ceva.com" firstName="Brice" lastName="Cardon" type="DQ"/>
+  <TalendProperties:User xmi:id="_6ZFnoCaBEeyOZeQZmzF3Ew" login="foued.dilmi-external@ceva.com" firstName="Foued" lastName="Dilmi" type="DQ"/>
+  <TalendProperties:User xmi:id="_KaFboCdqEeyQ1rrUaR2oTA" login="tibor.kezi@ceva.com" firstName="Tibor" lastName="Kezi" type="DQ"/>
+  <TalendProperties:User xmi:id="_1lAu4EhSEeyNrbjXCfMt1Q" login="frederic.soulier-external@ceva.com" firstName="frederic" lastName="SOULIER" type="DQ"/>
+  <TalendProperties:User xmi:id="_1lAu4UhSEeyNrbjXCfMt1Q" login="clara.molia-external@ceva.com" firstName="CLARA" lastName="MOLIA" type="DQ"/>
+  <TalendProperties:User xmi:id="_XzTIcE3KEeyDgaZGLoQQWw" login="nils.du-vinage-external@ceva.com" firstName="Nils" lastName="Du-Vinage" type="DQ"/>
+  <TalendProperties:User xmi:id="_FjL68FNYEeyiJI_Ym8dq6g" login="edwi.bassinga-external@ceva.com" firstName="Edwi" lastName="BASSINGA" type="DQ"/>
+  <TalendProperties:User xmi:id="_FjL68VNYEeyiJI_Ym8dq6g" login="marc.thavysok-external@ceva.com" firstName="Marc" lastName="THAVYSOK" type="DQ"/>
+  <TalendProperties:User xmi:id="_2TF-QFwZEeya_608a0gobQ" login="aiman.albeiriss-external@ceva.com" firstName="Aiman" lastName="Albeiriss" type="DQ"/>
+  <TalendProperties:User xmi:id="_DfQR0I9EEeymu8sU_5oqlA" login="dominique.aussaresses1-external@ceva.com" firstName="Dominique" lastName="Aussaresses" type="DQ"/>
+  <TalendProperties:User xmi:id="_bgcnEK9bEeyX-eMg0eh6Rw" login="dalia.jannene-external@ceva.com" firstName="Dalia" lastName="Jannene" type="DQ"/>
+  <TalendProperties:User xmi:id="_Kabx8LDHEey_75GFRWVgrg" login="paul.boissiere-external@ceva.com" firstName="Paul" lastName="Boissiere" type="DQ"/>
+  <TalendProperties:User xmi:id="_Kabx8bDHEey_75GFRWVgrg" login="gautier.couvrat-external@ceva.com" firstName="Gautier" lastName="Couvrat" type="DQ"/>
+  <TalendProperties:User xmi:id="_9zhGkNXaEeyd0K5LMGvDvQ" login="helene.despons@ceva.com" firstName="Helene" lastName="DESPONS" type="DQ"/>
+  <TalendProperties:User xmi:id="_VZwPgDT7Ee2rIvcpcNWM5A" login="hulya.yanmaz-external@ceva.com" firstName="Hulya" lastName="Yanmaz" type="DQ"/>
+</xmi:XMI>

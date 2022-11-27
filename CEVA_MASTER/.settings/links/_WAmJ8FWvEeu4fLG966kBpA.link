@@ -1,0 +1,29 @@
+{
+  "itemId" : "_WAmJ8FWvEeu4fLG966kBpA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_qxBZMAxKEeqTQ-Nwx6RXrw",
+    "parameterList" : [ {
+      "id" : "_IezicCBeEeyTod_5VNyIbQ",
+      "name" : "FtpFileMask"
+    }, {
+      "id" : "_IezicSBeEeyTod_5VNyIbQ",
+      "name" : "FtpLocalDir"
+    }, {
+      "id" : "_IeziciBeEeyTod_5VNyIbQ",
+      "name" : "FtpServer"
+    }, {
+      "id" : "_IezicyBeEeyTod_5VNyIbQ",
+      "name" : "FtpPassword"
+    }, {
+      "id" : "_IezidCBeEeyTod_5VNyIbQ",
+      "name" : "FtpPort"
+    }, {
+      "id" : "_IezidSBeEeyTod_5VNyIbQ",
+      "name" : "FtpRemoteDir"
+    }, {
+      "id" : "_IezidiBeEeyTod_5VNyIbQ",
+      "name" : "FtpUsername"
+    } ]
+  } ]
+}

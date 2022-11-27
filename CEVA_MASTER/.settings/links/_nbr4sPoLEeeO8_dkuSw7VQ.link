@@ -1,0 +1,190 @@
+{
+  "itemId" : "_nbr4sPoLEeeO8_dkuSw7VQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_R7jIIMkjEeeR2t7G47_giQ",
+    "parameterList" : [ {
+      "id" : "_54ZVhfaWEeuL7P7Fn1UmUQ",
+      "name" : "configDir"
+    }, {
+      "id" : "_54ZVh_aWEeuL7P7Fn1UmUQ",
+      "name" : "contextDir"
+    }, {
+      "id" : "_54ZVhPaWEeuL7P7Fn1UmUQ",
+      "name" : "dataDir"
+    }, {
+      "id" : "_54ZVhvaWEeuL7P7Fn1UmUQ",
+      "name" : "debugMode"
+    }, {
+      "id" : "_54ZVg_aWEeuL7P7Fn1UmUQ",
+      "name" : "logDir"
+    }, {
+      "id" : "_54ZViPaWEeuL7P7Fn1UmUQ",
+      "name" : "projectDir"
+    }, {
+      "id" : "_54ZVifaWEeuL7P7Fn1UmUQ",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_54ZVgfaWEeuL7P7Fn1UmUQ",
+      "name" : "talendDir"
+    }, {
+      "id" : "_54ZVgvaWEeuL7P7Fn1UmUQ",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_SKjekNpoEeeqfYuphOBwUg",
+    "parameterList" : [ {
+      "id" : "_56EJd_aWEeuL7P7Fn1UmUQ",
+      "name" : "bqAuth"
+    }, {
+      "id" : "_56EJc_aWEeuL7P7Fn1UmUQ",
+      "name" : "bqClientId"
+    }, {
+      "id" : "_56EJdPaWEeuL7P7Fn1UmUQ",
+      "name" : "bqClientSecret"
+    }, {
+      "id" : "_56EJefaWEeuL7P7Fn1UmUQ",
+      "name" : "bqDWHDataset"
+    }, {
+      "id" : "_56EJePaWEeuL7P7Fn1UmUQ",
+      "name" : "bqDWHProjectId"
+    }, {
+      "id" : "_56EJevaWEeuL7P7Fn1UmUQ",
+      "name" : "bqODSProjectId"
+    }, {
+      "id" : "_56EJcvaWEeuL7P7Fn1UmUQ",
+      "name" : "bqODSRefDataset"
+    }, {
+      "id" : "_56EJdfaWEeuL7P7Fn1UmUQ",
+      "name" : "gsAccessKey"
+    }, {
+      "id" : "_56EJdvaWEeuL7P7Fn1UmUQ",
+      "name" : "gsSecretKey"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_R7jIIMkjEeeR2t7G47_giQ",
+    "parameterList" : [ {
+      "id" : "_54ZVhfaWEeuL7P7Fn1UmUQ",
+      "name" : "configDir"
+    }, {
+      "id" : "_54ZVh_aWEeuL7P7Fn1UmUQ",
+      "name" : "contextDir"
+    }, {
+      "id" : "_54ZVhPaWEeuL7P7Fn1UmUQ",
+      "name" : "dataDir"
+    }, {
+      "id" : "_54ZVhvaWEeuL7P7Fn1UmUQ",
+      "name" : "debugMode"
+    }, {
+      "id" : "_54ZVg_aWEeuL7P7Fn1UmUQ",
+      "name" : "logDir"
+    }, {
+      "id" : "_54ZViPaWEeuL7P7Fn1UmUQ",
+      "name" : "projectDir"
+    }, {
+      "id" : "_54ZVifaWEeuL7P7Fn1UmUQ",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_54ZVgfaWEeuL7P7Fn1UmUQ",
+      "name" : "talendDir"
+    }, {
+      "id" : "_54ZVgvaWEeuL7P7Fn1UmUQ",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_SKjekNpoEeeqfYuphOBwUg",
+    "parameterList" : [ {
+      "id" : "_56EJgvaWEeuL7P7Fn1UmUQ",
+      "name" : "bqAuth"
+    }, {
+      "id" : "_56EJfvaWEeuL7P7Fn1UmUQ",
+      "name" : "bqClientId"
+    }, {
+      "id" : "_56EJf_aWEeuL7P7Fn1UmUQ",
+      "name" : "bqClientSecret"
+    }, {
+      "id" : "_56EJhPaWEeuL7P7Fn1UmUQ",
+      "name" : "bqDWHDataset"
+    }, {
+      "id" : "_56EJg_aWEeuL7P7Fn1UmUQ",
+      "name" : "bqDWHProjectId"
+    }, {
+      "id" : "_56EJhfaWEeuL7P7Fn1UmUQ",
+      "name" : "bqODSProjectId"
+    }, {
+      "id" : "_56EJffaWEeuL7P7Fn1UmUQ",
+      "name" : "bqODSRefDataset"
+    }, {
+      "id" : "_56EJgPaWEeuL7P7Fn1UmUQ",
+      "name" : "gsAccessKey"
+    }, {
+      "id" : "_56EJgfaWEeuL7P7Fn1UmUQ",
+      "name" : "gsSecretKey"
+    } ]
+  }, {
+    "contextName" : "Server",
+    "repoId" : "_R7jIIMkjEeeR2t7G47_giQ",
+    "parameterList" : [ {
+      "id" : "_54ZVhfaWEeuL7P7Fn1UmUQ",
+      "name" : "configDir"
+    }, {
+      "id" : "_54ZVh_aWEeuL7P7Fn1UmUQ",
+      "name" : "contextDir"
+    }, {
+      "id" : "_54ZVhPaWEeuL7P7Fn1UmUQ",
+      "name" : "dataDir"
+    }, {
+      "id" : "_54ZVhvaWEeuL7P7Fn1UmUQ",
+      "name" : "debugMode"
+    }, {
+      "id" : "_54ZVg_aWEeuL7P7Fn1UmUQ",
+      "name" : "logDir"
+    }, {
+      "id" : "_54ZViPaWEeuL7P7Fn1UmUQ",
+      "name" : "projectDir"
+    }, {
+      "id" : "_54ZVifaWEeuL7P7Fn1UmUQ",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_54ZVgfaWEeuL7P7Fn1UmUQ",
+      "name" : "talendDir"
+    }, {
+      "id" : "_54ZVgvaWEeuL7P7Fn1UmUQ",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Server",
+    "repoId" : "_SKjekNpoEeeqfYuphOBwUg",
+    "parameterList" : [ {
+      "id" : "_56EJjfaWEeuL7P7Fn1UmUQ",
+      "name" : "bqAuth"
+    }, {
+      "id" : "_56EJifaWEeuL7P7Fn1UmUQ",
+      "name" : "bqClientId"
+    }, {
+      "id" : "_56EJivaWEeuL7P7Fn1UmUQ",
+      "name" : "bqClientSecret"
+    }, {
+      "id" : "_56EJj_aWEeuL7P7Fn1UmUQ",
+      "name" : "bqDWHDataset"
+    }, {
+      "id" : "_56EJjvaWEeuL7P7Fn1UmUQ",
+      "name" : "bqDWHProjectId"
+    }, {
+      "id" : "_56EJkPaWEeuL7P7Fn1UmUQ",
+      "name" : "bqODSProjectId"
+    }, {
+      "id" : "_56EJiPaWEeuL7P7Fn1UmUQ",
+      "name" : "bqODSRefDataset"
+    }, {
+      "id" : "_56EJi_aWEeuL7P7Fn1UmUQ",
+      "name" : "gsAccessKey"
+    }, {
+      "id" : "_56EJjPaWEeuL7P7Fn1UmUQ",
+      "name" : "gsSecretKey"
+    } ]
+  } ]
+}

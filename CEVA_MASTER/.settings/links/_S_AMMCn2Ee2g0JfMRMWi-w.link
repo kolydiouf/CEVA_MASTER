@@ -1,0 +1,23 @@
+{
+  "itemId" : "_S_AMMCn2Ee2g0JfMRMWi-w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_3RkmYCn2Ee2g0JfMRMWi-w",
+    "parameterList" : [ {
+      "id" : "_3RzP4Sn2Ee2g0JfMRMWi-w",
+      "name" : "connection_TALENDLOG_drivers"
+    }, {
+      "id" : "_3RzP4in2Ee2g0JfMRMWi-w",
+      "name" : "connection_TALENDLOG_jdbcUrl"
+    }, {
+      "id" : "_3RzP4yn2Ee2g0JfMRMWi-w",
+      "name" : "connection_TALENDLOG_password"
+    }, {
+      "id" : "_3RzP5Cn2Ee2g0JfMRMWi-w",
+      "name" : "connection_TALENDLOG_driverClass"
+    }, {
+      "id" : "_3RzP5Sn2Ee2g0JfMRMWi-w",
+      "name" : "connection_TALENDLOG_username"
+    } ]
+  } ]
+}

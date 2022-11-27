@@ -1,0 +1,282 @@
+package routines;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
+import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
+import com.google.api.client.http.HttpTransport;
+import com.google.api.client.json.JsonFactory;
+import com.google.api.client.json.jackson2.JacksonFactory;
+import com.google.api.services.drive.Drive;
+import com.google.api.services.drive.Drive.Files.List;
+import com.google.api.services.drive.DriveScopes;
+import com.google.api.services.drive.model.File;
+import com.google.api.services.drive.model.FileList;
+import com.google.api.services.drive.model.ParentReference;
+import com.google.api.services.drive.model.Permission;
+
+public class GoogleUtils {
+
+	// To retrieve the Drive object from an access token
+	private static Drive getDriveBuilder(String accessToken) throws GeneralSecurityException, IOException{
+		
+		GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
+		
+		JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
+		HttpTransport httpTransport = GoogleNetHttpTransport.newTrustedTransport();
+		
+		Drive drive = new Drive.Builder(httpTransport, JSON_FACTORY, credential).setApplicationName("Talend").build();
+
+		return drive;
+		
+	}
+	
+	// To get the download URL from file object based on extension
+	public static String getFileDownloadURL(File f){
+		
+		if (f.getDownloadUrl() != null)
+			return f.getDownloadUrl();
+		
+		if (f.getExportLinks() != null) {
+		
+			String title = f.getTitle();
+			String extension = title.substring(title.lastIndexOf("."));
+			
+			String exportKey = null;
+			
+			switch(extension)
+			{
+				case ".pdf":
+					exportKey = "application/pdf";
+					break;
+				case ".ods":
+					exportKey = "application/vnd.oasis.opendocument.spreadsheet";
+					break;
+				case ".xlsx":
+					exportKey = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+					break;
+				case ".zip":
+					exportKey = "application/zip";
+					break;
+				case ".csv":
+					exportKey = "text/csv";
+					break;
+				case ".tsv":
+					exportKey = "text/tab-separated-values";
+					break;
+				case ".report":
+					exportKey = "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
+					break;
+			}
+			
+			return f.getExportLinks().get(exportKey);
+		}
+		
+		return null;
+	
+	}
+	
+	// Return all files in a directory identified by an absolute path
+	public static ArrayList<GoogleFile> googleDriveListFilesByPath(String accessToken, String path, boolean includeSubFolders) throws GeneralSecurityException, IOException{
+
+		Drive drive = getDriveBuilder(accessToken);
+		
+		ArrayList<GoogleFile> listOfFiles = new ArrayList<GoogleFile>();
+		ArrayList<GoogleFile> listOfFoldersToFind = new ArrayList<GoogleFile>();
+		
+		ArrayList<File> listOfFilesByPath = getFile(accessToken, path);
+		
+		if (listOfFilesByPath.size() > 0) {
+			
+			File rootFile = getFile(accessToken, path).get(0);
+			
+			String rootPath = "/" + rootFile.getTitle();
+
+			listOfFoldersToFind.add(new GoogleFile(rootPath, rootFile));
+			
+			while (listOfFoldersToFind.size() > 0){
+			
+				GoogleFile currentFolderGoogleFile = listOfFoldersToFind.get(0);
+				File currentFolderFile = currentFolderGoogleFile.getFile();
+				String currentFolderPath = currentFolderGoogleFile.getFileDir();
+
+				List list = drive.files().list();
+				FileList childrenFiles = list.setQ("parents in '" + currentFolderFile.getId() + "'").execute();
+		
+				java.util.List<File> files = childrenFiles.getItems();
+				Iterator<File> it = files.iterator();
+		
+				while (it.hasNext()){
+		
+					File f = it.next();
+					
+					if (f.getMimeType().equals("application/vnd.google-apps.folder")) {
+						if (includeSubFolders)
+							listOfFoldersToFind.add(new GoogleFile(currentFolderPath + "/" + f.getTitle(), f));
+					}
+					else
+						listOfFiles.add(new GoogleFile(currentFolderPath, f));
+
+				}
+				
+				listOfFoldersToFind.remove(0);
+
+			}
+			
+		}
+
+		return listOfFiles;
+		
+	}
+	
+	// Check if a file exists based on an absolute path
+	private static boolean isFileInPath(String accessToken, String filePath, String fileId) throws GeneralSecurityException, IOException {
+		
+		Drive drive = getDriveBuilder(accessToken);
+
+		String[] filePathArr = filePath.split("/");
+
+		String parentFileName = null;
+		if (filePathArr.length > 2)
+			parentFileName = filePathArr[filePathArr.length - 2];
+		
+		String parentFilePath = filePath.substring(0, filePath.lastIndexOf("/"));
+
+		if (parentFileName == null){
+			return true;
+		}
+		else {
+			
+			File currentFile = drive.files().get(fileId).execute();
+			
+			java.util.List<ParentReference> parents = currentFile.getParents();
+
+			Iterator<ParentReference> it2 = parents.iterator();
+			while (it2.hasNext()){
+				
+				ParentReference parentRef = it2.next();
+				String idParent = parentRef.getId();
+				
+				File fileParent = drive.files().get(idParent).execute();
+
+				String fileParentName = fileParent.getTitle();
+				
+				if (fileParentName.equals(parentFileName)){
+					return isFileInPath(accessToken, parentFilePath, fileParent.getId());
+				}
+				
+			}
+			
+			return false;
+
+		}
+
+	}
+	
+	// Returns a Drive file identified by an absolute path
+	public static ArrayList<File> getFile(String accessToken, String filePath) throws GeneralSecurityException, IOException {
+	
+		Drive drive = getDriveBuilder(accessToken);
+
+		// Init Array
+		ArrayList<File> listOfMatchingFiles = new ArrayList<File>();
+		
+		List list = drive.files().list();
+		
+		String currentName = filePath.substring(filePath.lastIndexOf("/")+1);
+		FileList fileList = list.setQ("title = '" + currentName + "'").execute();
+
+		java.util.List<File> files = fileList.getItems();
+		Iterator<File> it = files.iterator();
+
+		while (it.hasNext()){
+
+			File f = it.next();
+			boolean matchingFileId = isFileInPath(accessToken, filePath, f.getId());
+			if (matchingFileId)
+				listOfMatchingFiles.add(f);
+			
+		}
+		
+		return listOfMatchingFiles;
+		
+	}
+	
+	// Returns the first folder id that match a given name
+	public static String getFolderId(String accessToken, String folderName) throws FileNotFoundException, IOException, GeneralSecurityException{
+		
+		Drive drive = getDriveBuilder(accessToken);
+
+		List list = drive.files().list();
+		
+		FileList fileList = list.setQ("title = '" + folderName + "' and mimeType = 'application/vnd.google-apps.folder'").execute();
+
+		if (fileList.getItems().size() == 0)
+			return null;
+
+		return fileList.getItems().get(0).getId();			
+
+	}
+	
+	// Move a file in a specific directory based on objects ids
+	public static void moveFile(String accessToken, String fileId, String targetId) throws FileNotFoundException, IOException, GeneralSecurityException{
+		
+		Drive drive = getDriveBuilder(accessToken);
+		
+		// Get pointer to WORK folder
+		ParentReference parent = new ParentReference();
+		parent.setId(targetId);
+
+		/*import*/ java.util.List<ParentReference> parents = new ArrayList<ParentReference>();
+		parents.add(parent);
+		
+		// Get file object to move
+		File file = drive.files().get(fileId).execute();
+		
+		// Update parents list
+		file.setParents(parents);
+		
+		// Update file
+		drive.files().update(fileId, file).execute();
+
+	}
+
+	// Share a drive object with a given google email
+	public static String shareDriveObject(String accessToken,
+			String objectId, String role, String email)
+			throws FileNotFoundException, IOException, GeneralSecurityException {
+
+		Drive drive = getDriveBuilder(accessToken);
+
+		Permission perm = new Permission();
+		perm.setRole(role);
+		perm.setType("user");
+		perm.setValue(email);
+
+		drive.permissions().insert(objectId, perm).execute();
+
+		return "OK";
+
+	}
+
+	// Get an access token from a service account
+	public static String getGoogleAccessToken(String jsonKeyFilePath)
+			throws FileNotFoundException, IOException, GeneralSecurityException {
+
+		GoogleCredential credential = GoogleCredential.fromStream(
+				new FileInputStream(jsonKeyFilePath)).createScoped(
+				Collections.singleton(DriveScopes.DRIVE));
+
+		credential.refreshToken();
+
+		return credential.getAccessToken();
+
+	}
+
+}

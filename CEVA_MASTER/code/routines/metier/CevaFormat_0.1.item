@@ -1,0 +1,146 @@
+package routines;
+
+import java.text.Normalizer;
+import java.text.Normalizer.Form;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class CevaFormat {
+
+    /**
+     * julianToCalendar: Transforme une date Julienne en objet Date.
+     * {talendTypes} Date
+     * {Category} User Defined
+     * {param} string("date") input: Date Julienne sous forme de string.
+     * {example} julianToCalendar("113031") # 31/01/2013
+     * @param date 
+     * @return a Date object or null
+     * @author Emmanuel PREVOT
+     */
+    public static Date julianToCalendar(String date){
+                try{
+                               if(date != null && !"".equals(date)){
+                                               //String paramdate = String.format("%06d", Integer.valueOf(date.replaceAll(".\\d+$", "")));
+                                               String paramdate = String.format("%06d", Integer.valueOf(date.replaceAll("\\.{1}\\d+$", "")));
+                                               if(Integer.valueOf(paramdate)!= 0){
+                                                               Calendar c = GregorianCalendar.getInstance();
+                                                              SimpleDateFormat sdf = new SimpleDateFormat("yyyDDD");
+                                                              c.setTime(sdf.parse(paramdate));
+                                                              c.add(Calendar.YEAR, 1900);
+                                                              return c.getTime();
+                                               }
+                               }
+                }
+                catch(Exception e){
+                }
+                return null;
+    } 
+    
+    
+    public static Date julianToCalendarTime(String date, String time){
+		try{
+			if(time != null && !"".equals(time)){
+
+				if (Integer.parseInt(time) == 0){
+					time = "0000 ";
+				}
+
+				String minute, heure;
+				minute = time.trim().substring(time.length()-2);
+
+
+				if (time.length() == 3){
+					heure = "0"+time.trim().substring(0,1);
+				}
+				else{
+					heure = time.trim().substring(0,2);
+					heure =  String.valueOf(Integer.parseInt(heure) % 24);
+					if (heure.length() == 1){
+						heure ="0"+heure;
+					}
+				}
+
+				if (Integer.parseInt(minute) > 59){
+					time = "0000 GMT";
+				}
+				else {
+					time = heure + minute + " GMT";
+				}
+
+				SimpleDateFormat sdf = new SimpleDateFormat("HHmm z");
+				Date datetime= sdf.parse(time);
+
+				return new Date(julianToCalendar(date).getTime() + datetime.getTime());
+
+	        }
+
+	        return julianToCalendar(date);
+
+	    }
+
+	    catch(Exception e){
+		}
+		return null;
+	}
+
+
+    /**
+     * calendarToJulian: Transforme une date calendaire en date julienne.
+     * {talendTypes} Integer
+     * {Category} User Defined
+     * {param} string("date") input: Date calendaire sous forme de date.
+     * {example} calendarToJulian("31/01/2013") #113031
+     * @param integer 
+     * @return an Integer object or null
+     * @author Emmanuel PREVOT
+     */
+    public static int calendarToJulian(Date date)
+    {
+    	int resultJulian = 0;
+    	int julianDate = 0;
+    	
+    	Calendar calendar = Calendar.getInstance(); 
+    	calendar.setTime(date);   
+
+    	julianDate = (calendar.get(GregorianCalendar.YEAR) - 1900 ) * 1000 + calendar.get(GregorianCalendar.DAY_OF_YEAR);
+    	
+            
+    	resultJulian =  Integer.valueOf(julianDate);    
+ 
+ return resultJulian;
+}
+
+            
+    /**
+     * removeAccents: Supprime les accents d'une chaine de caractère src
+     * {talendTypes} String
+     * {Category} User Defined
+     * {param} string("src") input: Chaine de caractère avec accent(s)
+     * {param} boolean("enable") input: activation du remplacement
+     * {exemple} removeAccents("ÄâàëËÊêéèüûùïÏÎîôÖÔö", true) #"AaaeEEeeeuuuiIIioOOo"
+     * @return Chaine de caractère sans accent
+     * @author Emmanuel PREVOT
+     */
+    public static String removeAccents(String src, boolean enable){
+                return src != null && enable? 
+                                               Normalizer.normalize(src, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", ""):
+                                                               src;
+    }
+    /**
+     * removeSpecialChars: Supprime les caractères spéciaux (non conventionnels) contenu dans une chaine de caractère.
+     * {talendTypes} String
+     * {Category} User Defined
+     * {param} string("src") input: Chaine de caractère avec caractères spéciaux
+     * {param} boolean("enable") input: activation du remplacement
+     * {exemple} removeSpecialChars("ÄâàëËÊêéèüûùïÏÎîôÖÔö", true) #"AaaeEEeeeuuuiIIioOOo"
+     * @return Chaine de caractère sans caracètre spéciaux
+     * @author Emmanuel PREVOT
+     */
+    public static String removeSpecialChars(String src, boolean enable){
+                return src != null && enable? 
+                                               Normalizer.normalize(src, Form.NFD).replaceAll("\\xa0+", ""):
+                                                               src;
+    }
+}

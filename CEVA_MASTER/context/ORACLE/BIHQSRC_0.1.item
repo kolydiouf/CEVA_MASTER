@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_5_FMUPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_BIHQSRC_username" prompt="connection_BIHQSRC_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BIHQ" xmi:id="_5_FMUfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_port" prompt="connection_BIHQSRC_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_5_FMUvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_additionalparams" prompt="connection_BIHQSRC_additionalparams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMU_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_host" prompt="connection_BIHQSRC_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.10.34" xmi:id="_5_FMVPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_database" prompt="connection_BIHQSRC_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHEUP" xmi:id="_5_FMVfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_password" prompt="connection_BIHQSRC_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:1vFy7bQDCwrq8t/DS9oCZRen7D6QzzULbROO+Vnf1Ow30nZJ0v6f" xmi:id="_5_FMVvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_schema" prompt="connection_BIHQSRC_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BIHQ" xmi:id="_5_FMV_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_5_FMWPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_BIHQSRC_username" prompt="connection_BIHQSRC_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMWfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_port" prompt="connection_BIHQSRC_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMWvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_additionalparams" prompt="connection_BIHQSRC_additionalparams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMW_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_host" prompt="connection_BIHQSRC_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMXPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_database" prompt="connection_BIHQSRC_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMXfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_password" prompt="connection_BIHQSRC_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_5_FMXvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_schema" prompt="connection_BIHQSRC_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMX_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_5_FMYPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_BIHQSRC_username" prompt="connection_BIHQSRC_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMYfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_port" prompt="connection_BIHQSRC_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMYvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_additionalparams" prompt="connection_BIHQSRC_additionalparams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMY_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_host" prompt="connection_BIHQSRC_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMZPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_database" prompt="connection_BIHQSRC_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMZfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_password" prompt="connection_BIHQSRC_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_5_FMZvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_BIHQSRC_schema" prompt="connection_BIHQSRC_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5_FMZ_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d28fb592-f1a2-4e49-9080-4fb993e82ab1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Uwd8q5vGH0JBCWa21KhwtQbJZwLEHt7QsqepBK4lWYeSg3f+uvNtbpHD9jevJNfouEMy8iVPZ+S/&#13;
+jMXUJ/lsPg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b4b570f6-6aba-48d4-953c-d586db7fc6aa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xj0f/y2iqkOHLi3m20e1XqgY9YsGdn3OFCWpsN9ENlp3ji6ZQglH8dl60ksiI+EOAnz138tox0z0&#13;
+M87tEnQf3Q==</DigestValue></Reference></SignedInfo><SignatureValue>ChmvxSD9S+5nrizIfYap4+HAaybebUZhdwgD3vafnIdJG+7qxsdaRdX4sxeRG2+JhplY5wGUuh0K&#13;
+B1g92wuh+LE7cs4zJZNdMySAavakxdY7SBoxZ36Gv21pj5EMZEVJpU0VsH6zMYo6dG0KAzH4NA8j&#13;
+Za/gtjuW198DR+P6l44GqocKZt2Vpb6KoY/0+J5IxwCcZw+Sg52SqTXf40H7/4HXtsCQ78J0ZOKE&#13;
+jedlYeQ0YYcrLcwn965H4ADfSxrwo0Pm3+RAbhFHx0eGoC1as16njRO8bLeondQ3FQLIzNhPXBzc&#13;
+G3avLli/qI8H4xmqPlr5H0EC4xQosb51N3LTFQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b4b570f6-6aba-48d4-953c-d586db7fc6aa" Target="#_d28fb592-f1a2-4e49-9080-4fb993e82ab1"><Timestamp>2021-09-17 13:28:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

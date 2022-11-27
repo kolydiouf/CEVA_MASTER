@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_LJPXUCB9EeyEoJFpXSKJfQ">
+    <contextParameter comment="" name="connection_TALENDLOG_Password" prompt="connection_TALENDLOG_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:gWdQOn8FjExZnLLbdPIPks6e5nCKI9AMWX+cF7R8m+27fCUmeB7ZkS7GMhE=" xmi:id="_LJPXUSB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Schema" prompt="connection_TALENDLOG_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" xmi:id="_LJPXUiB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Server" prompt="connection_TALENDLOG_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.23.48.5" xmi:id="_LJPXUyB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_AdditionalParams" prompt="connection_TALENDLOG_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXVCB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Login" prompt="connection_TALENDLOG_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" xmi:id="_LJPXVSB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Port" prompt="connection_TALENDLOG_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXViB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Database" prompt="connection_TALENDLOG_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" xmi:id="_LJPXVyB9EeyEoJFpXSKJfQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_LJPXWCB9EeyEoJFpXSKJfQ">
+    <contextParameter comment="" name="connection_TALENDLOG_Password" prompt="connection_TALENDLOG_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_LJPXWSB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Schema" prompt="connection_TALENDLOG_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXWiB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Server" prompt="connection_TALENDLOG_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXWyB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_AdditionalParams" prompt="connection_TALENDLOG_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXXCB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Login" prompt="connection_TALENDLOG_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXXSB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Port" prompt="connection_TALENDLOG_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXXiB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Database" prompt="connection_TALENDLOG_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXXyB9EeyEoJFpXSKJfQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_LJPXYCB9EeyEoJFpXSKJfQ">
+    <contextParameter comment="" name="connection_TALENDLOG_Password" prompt="connection_TALENDLOG_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_LJPXYSB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Schema" prompt="connection_TALENDLOG_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXYiB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Server" prompt="connection_TALENDLOG_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXYyB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_AdditionalParams" prompt="connection_TALENDLOG_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXZCB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Login" prompt="connection_TALENDLOG_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXZSB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Port" prompt="connection_TALENDLOG_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXZiB9EeyEoJFpXSKJfQ"/>
+    <contextParameter comment="" name="connection_TALENDLOG_Database" prompt="connection_TALENDLOG_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LJPXZyB9EeyEoJFpXSKJfQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0d505694-a5a6-4fdc-be31-342a16445b79"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KzXAoi6DpakLu2pBhIQ/F7pdSPhKH6kQ9waN+yiLEP2g3mwZ6FhPBfu4yikXL79RBKMg0WZB58EN&#13;
+8ZK3Txgo8Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f2e02b4f-a0fd-4b14-a8f6-f887c190d0ed"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>u0puI9MIFXiKNM4UnXmpi+14zs4/70Pp0lj7dlcglkJcyz8W+qFc7pbYeLS6igvcwqOjwDczi+Ht&#13;
+fKDC9LSVuQ==</DigestValue></Reference></SignedInfo><SignatureValue>OtJ7mVzKguIissxogNulewuwSLxcd95bwfZ8G4TMMifvjlrtgHHy2uzZwEGlc7huzpjuKIOmjvRh&#13;
+wyxWLbLibJu8TWSZehWNQh/hfhzyPmBgUeRVlG280hpMKRdewkfdY0wLUeAOvIfwg8gRv53voBIq&#13;
+NAmR2JXGuenu+JBNLUmk/Eibg/hwj3QlkUQrZjZMncnG4xLF/T+m7t04dZfvcnsZja6HrXcntq1E&#13;
+adv1ULdZHGzzwNYCPDgHjLCjCi52+2jZHsMpL3nJEtzesY6GR5mK9o3enk25I3BKO9CmZWAdRTqy&#13;
+RyZhLWTG0U//7T7buLYAaXPK4/w1M1oKaUG+QQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f2e02b4f-a0fd-4b14-a8f6-f887c190d0ed" Target="#_0d505694-a5a6-4fdc-be31-342a16445b79"><Timestamp>2021-09-28 16:57:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,88 @@
+{
+  "itemId" : "_LxAGoKGkEeu5f7pkqG2Epw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_5i3lUKzzEeuur_R3jBM8YA",
+    "parameterList" : [ {
+      "id" : "_6T4-t_aWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_fileMask"
+    }, {
+      "id" : "_6T4-tvaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_flag_del_when_received"
+    }, {
+      "id" : "_6T4-s_aWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_host"
+    }, {
+      "id" : "_6T4-tfaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_localdir"
+    }, {
+      "id" : "_6T4-sfaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_login"
+    }, {
+      "id" : "_6T4-uPaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_port"
+    }, {
+      "id" : "_6T4-svaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_pwd"
+    }, {
+      "id" : "_6T4-tPaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_remotedir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_5i3lUKzzEeuur_R3jBM8YA",
+    "parameterList" : [ {
+      "id" : "_6T4-wvaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_fileMask"
+    }, {
+      "id" : "_6T4-wfaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_flag_del_when_received"
+    }, {
+      "id" : "_6T4-vvaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_host"
+    }, {
+      "id" : "_6T4-wPaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_localdir"
+    }, {
+      "id" : "_6T4-vPaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_login"
+    }, {
+      "id" : "_6T4-w_aWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_port"
+    }, {
+      "id" : "_6T4-vfaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_pwd"
+    }, {
+      "id" : "_6T4-v_aWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_remotedir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_5i3lUKzzEeuur_R3jBM8YA",
+    "parameterList" : [ {
+      "id" : "_6T4-zfaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_fileMask"
+    }, {
+      "id" : "_6T4-zPaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_flag_del_when_received"
+    }, {
+      "id" : "_6T4-yfaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_host"
+    }, {
+      "id" : "_6T4-y_aWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_localdir"
+    }, {
+      "id" : "_6T4-x_aWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_login"
+    }, {
+      "id" : "_6T4-zvaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_port"
+    }, {
+      "id" : "_6T4-yPaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_pwd"
+    }, {
+      "id" : "_6T4-yvaWEeuL7P7Fn1UmUQ",
+      "name" : "SFTP_remotedir"
+    } ]
+  } ]
+}

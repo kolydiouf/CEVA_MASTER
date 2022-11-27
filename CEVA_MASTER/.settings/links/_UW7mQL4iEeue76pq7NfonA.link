@@ -1,0 +1,154 @@
+{
+  "itemId" : "_UW7mQL4iEeue76pq7NfonA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_pC3RgL4cEeue76pq7NfonA",
+    "parameterList" : [ {
+      "id" : "_6GO9M_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_AdditionalParams"
+    }, {
+      "id" : "_6GO9MfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Login"
+    }, {
+      "id" : "_6GO9NvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Password"
+    }, {
+      "id" : "_6GO9MvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Port"
+    }, {
+      "id" : "_6GO9N_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Schema"
+    }, {
+      "id" : "_6GO9NPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Server"
+    }, {
+      "id" : "_6GO9NfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_muf3oL4bEeue76pq7NfonA",
+    "parameterList" : [ {
+      "id" : "_6Aru0_aWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_additionalparams"
+    }, {
+      "id" : "_6Aru0faWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_username"
+    }, {
+      "id" : "_6Aru1vaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_password"
+    }, {
+      "id" : "_6Aru0vaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_port"
+    }, {
+      "id" : "_6Aru1_aWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_schema"
+    }, {
+      "id" : "_6Aru1PaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_host"
+    }, {
+      "id" : "_6Aru1faWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_database"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_pC3RgL4cEeue76pq7NfonA",
+    "parameterList" : [ {
+      "id" : "_6GPkQ_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_AdditionalParams"
+    }, {
+      "id" : "_6GPkQfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Login"
+    }, {
+      "id" : "_6GPkRvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Password"
+    }, {
+      "id" : "_6GPkQvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Port"
+    }, {
+      "id" : "_6GPkR_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Schema"
+    }, {
+      "id" : "_6GPkRPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Server"
+    }, {
+      "id" : "_6GPkRfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Sid"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_muf3oL4bEeue76pq7NfonA",
+    "parameterList" : [ {
+      "id" : "_6Aru2_aWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_additionalparams"
+    }, {
+      "id" : "_6Aru2faWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_username"
+    }, {
+      "id" : "_6Aru3vaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_password"
+    }, {
+      "id" : "_6Aru2vaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_port"
+    }, {
+      "id" : "_6Aru3_aWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_schema"
+    }, {
+      "id" : "_6Aru3PaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_host"
+    }, {
+      "id" : "_6Aru3faWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_database"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_pC3RgL4cEeue76pq7NfonA",
+    "parameterList" : [ {
+      "id" : "_6GPkS_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_AdditionalParams"
+    }, {
+      "id" : "_6GPkSfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Login"
+    }, {
+      "id" : "_6GPkTvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Password"
+    }, {
+      "id" : "_6GPkSvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Port"
+    }, {
+      "id" : "_6GPkT_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Schema"
+    }, {
+      "id" : "_6GPkTPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Server"
+    }, {
+      "id" : "_6GPkTfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_SRC_Sid"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_muf3oL4bEeue76pq7NfonA",
+    "parameterList" : [ {
+      "id" : "_6Aru4_aWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_additionalparams"
+    }, {
+      "id" : "_6Aru4faWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_username"
+    }, {
+      "id" : "_6Aru5vaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_password"
+    }, {
+      "id" : "_6Aru4vaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_port"
+    }, {
+      "id" : "_6Aru5_aWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_schema"
+    }, {
+      "id" : "_6Aru5PaWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_host"
+    }, {
+      "id" : "_6Aru5faWEeuL7P7Fn1UmUQ",
+      "name" : "connection_BIHQTGT_database"
+    } ]
+  } ]
+}

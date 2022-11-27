@@ -1,0 +1,37 @@
+package routines;
+
+import com.google.api.services.drive.model.File;
+
+public class GoogleFile {
+	
+	private String fileDir;
+	private File file;
+
+	public GoogleFile(String fullPath, File file) {
+		super();
+		this.fileDir = fullPath;
+		this.file = file;
+	}
+	
+	public String getFileDir() {
+		return fileDir;
+	}
+	
+	public void setFileDir(String fileDir) {
+		this.fileDir = fileDir;
+	}
+	
+	public File getFile() {
+		return file;
+	}
+	
+	public void setFile(File file) {
+		this.file = file;
+	}
+
+	@Override
+	public String toString() {
+		return "GoogleFile [fileDir=" + fileDir + ", file=" + file.getTitle() + "(" + file.getId() + ")" + "]";
+	}
+
+}

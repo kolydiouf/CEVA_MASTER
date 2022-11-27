@@ -1,0 +1,106 @@
+{
+  "itemId" : "_NXcfwEbjEeinWss0349lOA",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_kMV6ACB6EeiWa7389niV3w",
+    "parameterList" : [ {
+      "id" : "_6YhnKPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_AdditionalParams"
+    }, {
+      "id" : "_6YhnJ_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Login"
+    }, {
+      "id" : "_6YhnK_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Password"
+    }, {
+      "id" : "_6YhnKvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Port"
+    }, {
+      "id" : "_6YhnLPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema1"
+    }, {
+      "id" : "_6YhnLvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema2"
+    }, {
+      "id" : "_6YhnL_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema3"
+    }, {
+      "id" : "_6YhnMPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema4"
+    }, {
+      "id" : "_6YhnKfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Server"
+    }, {
+      "id" : "_6YhnLfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Sid"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_kMV6ACB6EeiWa7389niV3w",
+    "parameterList" : [ {
+      "id" : "_6YhnEvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_AdditionalParams"
+    }, {
+      "id" : "_6YhnEfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Login"
+    }, {
+      "id" : "_6YhnFfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Password"
+    }, {
+      "id" : "_6YhnFPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Port"
+    }, {
+      "id" : "_6YhnFvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema1"
+    }, {
+      "id" : "_6YhnGPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema2"
+    }, {
+      "id" : "_6YhnGfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema3"
+    }, {
+      "id" : "_6YhnGvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema4"
+    }, {
+      "id" : "_6YhnE_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Server"
+    }, {
+      "id" : "_6YhnF_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Sid"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_kMV6ACB6EeiWa7389niV3w",
+    "parameterList" : [ {
+      "id" : "_6YhnHfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_AdditionalParams"
+    }, {
+      "id" : "_6YhnHPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Login"
+    }, {
+      "id" : "_6YhnIPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Password"
+    }, {
+      "id" : "_6YhnH_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Port"
+    }, {
+      "id" : "_6YhnIfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema1"
+    }, {
+      "id" : "_6YhnI_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema2"
+    }, {
+      "id" : "_6YhnJPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema3"
+    }, {
+      "id" : "_6YhnJfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema4"
+    }, {
+      "id" : "_6YhnHvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Server"
+    }, {
+      "id" : "_6YhnIvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Sid"
+    } ]
+  } ]
+}

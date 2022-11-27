@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType name="Default" xmi:id="_6WTZgPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZgfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZgvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZg_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZhPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZhfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZhvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZh_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileDir" prompt="SMTPFileDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_ALIM_AIEMV\tmp\" xmi:id="_6WTZiPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileName" prompt="SMTPFileName?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZifaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileMessage" prompt="SMTPFileMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZivaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType name="Dev" xmi:id="_6WTZi_aWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZjPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZjfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZjvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZj_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZkPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZkfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZkvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileDir" prompt="SMTPFileDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_ALIM_AIEMV\tmp\" xmi:id="_6WTZk_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileName" prompt="SMTPFileName?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZlPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileMessage" prompt="SMTPFileMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZlfaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType name="Prod" xmi:id="_6WTZlvaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZl_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZmPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZmfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZmvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZm_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZnPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZnfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileDir" prompt="SMTPFileDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\BI_ALIM_AIEMV\tmp\" xmi:id="_6WTZnvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileName" prompt="SMTPFileName?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZn_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SMTPFileMessage" prompt="SMTPFileMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_6WTZoPaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b467b52e-c750-403f-b92d-bc6ed99611f9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vnt9uEPL4zK4SzPdj941ZrdfMN4viU+K3gCTpxtuc3CbnHKQ0cTQw1dVfE6+M704fniC4ot3mNDh&#13;
+ra1TtSD/Hg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c29bf80a-8fd3-48c7-9e09-9b5ac3aa110c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>s3GnnwEayANfA3xYn+I/l60WzeSpgkiDoPXuMEjqDSzmBK5o0fy47U8h6tv0X9jvb3x1ZkvIoAlX&#13;
+C0boJdu8gQ==</DigestValue></Reference></SignedInfo><SignatureValue>mxIxObwcT9H0nCbxArbc6Tk3lpCiiR21h/CGrxY8bBznnlQNnZN02+WoucZ4ewznquA8WHworKLq&#13;
+2tV77TFnmZ7S4/ehYMEEWGBoQwaNeTfK/2mTjrsUSw+FFS60UO66W68ivFg/6rLiCtxVyGv3zNUt&#13;
+vB3L2PmC69WtLzivTpKcAtN5oEPOscQ0i7Y85qkRG6SuV3BgaE/v42xAZZ+5iLP9u0BPrLZg7xKH&#13;
+qs5iYc/AC2wiokNRFJlmUSCrd0u93OIEw9FL6gQX0T+0PNSNZ6wSwRZ5pt4p1fZccr0S4u99f7CS&#13;
+EawNdMnT0wO4SX/uNV9zlXcPoA9fIQ0ZYOsVtw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c29bf80a-8fd3-48c7-9e09-9b5ac3aa110c" Target="#_b467b52e-c750-403f-b92d-bc6ed99611f9"><Timestamp>2021-08-06 09:15:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

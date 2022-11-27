@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_54ZVgPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="Root directory for Talend files" name="talendDir" prompt="talendDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_54ZVgfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Talend temporary folder" name="tmpDir" prompt="tmpDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_54ZVgvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Talend log folder" name="LogDir" prompt="LogDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="c:/talend/project_resources/dev/CEVA_BI_QTM/log/" xmi:id="_54ZVg_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Talend data folder" name="DataDir" prompt="DataDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_54ZVhPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Talend configuration folder" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="c:/talend/project_resources/dev/CEVA_BI_QTM/config/" xmi:id="_54ZVhfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="debugMode" prompt="debugMode?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" xmi:id="_54ZVhvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Talend contexts folder" name="ContextDir" prompt="ContextDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_54ZVh_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="projectDir" prompt="projectDir?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="" xmi:id="_54ZViPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="sqlDir" prompt="sqlDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_54ZVifaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="cevaMasterDir" prompt="cevaMasterDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_54ZVi_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="parameter_ContextFile" prompt="parameter_ContextFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_W0Vc4HIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="ConfigFile" prompt="ConfigFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CONFIG_CEVA_BI_QTM.ini" xmi:id="_W-6BQHIgEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="" name="ConfigFieldSeparator" prompt="ConfigFieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="=" xmi:id="_W-6BQXIgEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="" name="LogDuration" prompt="LogDuration?" promptNeeded="false" repositoryContextId="built-in" type="id_Double" value="30.0" xmi:id="_W-6BQnIgEeyLWZ_1XJvVAQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_3yVwAHH9EeyrVYvDILbHpw">
+    <contextParameter comment="Root directory for Talend files" name="talendDir" prompt="talendDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwAXH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend temporary folder" name="tmpDir" prompt="tmpDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwAnH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend log folder" name="LogDir" prompt="LogDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/project_resources/dev/CEVA_BI_QTM/log/" xmi:id="_3yVwA3H9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend data folder" name="DataDir" prompt="DataDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwBHH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend configuration folder" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/project_resources/dev/CEVA_BI_QTM/config/" xmi:id="_3yVwBXH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="debugMode" prompt="debugMode?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" xmi:id="_3yVwBnH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend contexts folder" name="ContextDir" prompt="ContextDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwB3H9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="projectDir" prompt="projectDir?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="" xmi:id="_3yVwCHH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="sqlDir" prompt="sqlDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwCXH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="cevaMasterDir" prompt="cevaMasterDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwC3H9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="parameter_ContextFile" prompt="parameter_ContextFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_W0Vc4XIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="ConfigFile" prompt="ConfigFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CONFIG_CEVA_BI_QTM.ini" xmi:id="_W-6BQ3IgEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="" name="ConfigFieldSeparator" prompt="ConfigFieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="=" xmi:id="_W-6BRHIgEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="" name="LogDuration" prompt="LogDuration?" promptNeeded="false" repositoryContextId="built-in" type="id_Double" value="30.0" xmi:id="_W-6BRXIgEeyLWZ_1XJvVAQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_3yVwDHH9EeyrVYvDILbHpw">
+    <contextParameter comment="Root directory for Talend files" name="talendDir" prompt="talendDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwDXH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend temporary folder" name="tmpDir" prompt="tmpDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwDnH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend log folder" name="LogDir" prompt="LogDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/project_resources/prod/CEVA_BI_QTM/log/" xmi:id="_3yVwD3H9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend data folder" name="DataDir" prompt="DataDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwEHH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend configuration folder" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/project_resources/prod/CEVA_BI_QTM/config/" xmi:id="_3yVwEXH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="debugMode" prompt="debugMode?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" xmi:id="_3yVwEnH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="Talend contexts folder" name="ContextDir" prompt="ContextDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwE3H9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="projectDir" prompt="projectDir?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="" xmi:id="_3yVwFHH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="sqlDir" prompt="sqlDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwFXH9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="cevaMasterDir" prompt="cevaMasterDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3yVwF3H9EeyrVYvDILbHpw"/>
+    <contextParameter comment="" name="parameter_ContextFile" prompt="parameter_ContextFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_W0Vc4nIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="ConfigFile" prompt="ConfigFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CONFIG_CEVA_BI_QTM.ini" xmi:id="_W-6BRnIgEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="" name="ConfigFieldSeparator" prompt="ConfigFieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="=" xmi:id="_W-6BR3IgEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="" name="LogDuration" prompt="LogDuration?" promptNeeded="false" repositoryContextId="built-in" type="id_Double" value="30.0" xmi:id="_W-6BSHIgEeyLWZ_1XJvVAQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0629d53f-9e96-4295-9058-ad438a232aa2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>074kIVy/M/7DhBuop0jVdrVgIHHaOMeUprFFCzpSRO+/I6dBQvUvU4Bdu0ETnMvQThEpWl9dcDbI&#13;
+297DddZWyw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6bcee3aa-06ec-41af-bea4-d6c0ea56e7bf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WzOd8W1PRUu6D/6N+XVX2s8ut+xKGyfchJj/YXcgILOSczDAslBahAB9jM9NALXA7akOW0CraoDy&#13;
+hmAAUK/0Dw==</DigestValue></Reference></SignedInfo><SignatureValue>XYgOOMD2qiB71sILx7hiAIeazthrtwBckWnXFSlmO6P+CRs59UOqu39Zj1CXdI6kjUH6dDxz3it3&#13;
+PveekY7umDugzXGzUdPiuw4ExJRntQMuVA5B4Qaujg3jBqSoqNvBjrHpQFHjteTohMNh67M1Vk+t&#13;
+gD3wwGlUG6iB7q+dipp50EELTN/vyg0us9U5yes3JoDkaskXf2ujZc7+Mb5uI8dn5Jx3AiEp6PAq&#13;
+Z9nE53OHyX0X47ney/S2KkqNvO/M7DqBCNwTSoM4JchiRFzkW1Xg0VZtqlNWQKm96eHsBp9rBefp&#13;
+BCVLm5av0Wdi4onajox71doO8RbIIwIJMZmnoQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6bcee3aa-06ec-41af-bea4-d6c0ea56e7bf" Target="#_0629d53f-9e96-4295-9058-ad438a232aa2"><Timestamp>2022-01-10 14:38:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

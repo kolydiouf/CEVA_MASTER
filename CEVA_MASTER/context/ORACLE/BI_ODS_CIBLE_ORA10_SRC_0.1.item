@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_6M0tYPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Port" prompt="BI_ODS_CIBLE_ORA10_SRC_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_6M0tYfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Password" prompt="BI_ODS_CIBLE_ORA10_SRC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:XdVsBWIKRyNOEsRuMRfJR+UR6GA1fLOJgF0Fb2Bc6w==" xmi:id="_6M0tYvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Schema" prompt="BI_ODS_CIBLE_ORA10_SRC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tY_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Server" prompt="BI_ODS_CIBLE_ORA10_SRC_Server?" promptNeeded="false" type="id_String" value="DW1LIB1EMA.ceva.net" xmi:id="_6M0tZPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_AdditionalParams" prompt="BI_ODS_CIBLE_ORA10_SRC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tZfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Login" prompt="BI_ODS_CIBLE_ORA10_SRC_Login?" promptNeeded="false" type="id_String" value="ODS" xmi:id="_6M0tZvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Sid" prompt="BI_ODS_CIBLE_ORA10_SRC_Sid?" promptNeeded="false" type="id_String" value="dw5" xmi:id="_6M0tZ_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_6M0taPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Port" prompt="BI_ODS_CIBLE_ORA10_SRC_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tafaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Password" prompt="BI_ODS_CIBLE_ORA10_SRC_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_6M0tavaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Schema" prompt="BI_ODS_CIBLE_ORA10_SRC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0ta_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Server" prompt="BI_ODS_CIBLE_ORA10_SRC_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tbPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_AdditionalParams" prompt="BI_ODS_CIBLE_ORA10_SRC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tbfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Login" prompt="BI_ODS_CIBLE_ORA10_SRC_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tbvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Sid" prompt="BI_ODS_CIBLE_ORA10_SRC_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tb_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_6M0tcPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Port" prompt="BI_ODS_CIBLE_ORA10_SRC_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tcfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Password" prompt="BI_ODS_CIBLE_ORA10_SRC_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_6M0tcvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Schema" prompt="BI_ODS_CIBLE_ORA10_SRC_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tc_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Server" prompt="BI_ODS_CIBLE_ORA10_SRC_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tdPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_AdditionalParams" prompt="BI_ODS_CIBLE_ORA10_SRC_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tdfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Login" prompt="BI_ODS_CIBLE_ORA10_SRC_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0tdvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="BI_ODS_CIBLE_ORA10_SRC_Sid" prompt="BI_ODS_CIBLE_ORA10_SRC_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_6M0td_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_054d8fd0-acc9-4a02-bf2f-a9f0237f0cb3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dVHDXZ+ZekjRzHzOVU9n8R9nHId53P+M98nAAoNjhO9zSeoJnXZ6+xmIkAqbl1hMfU3bV5W5jwdP&#13;
+cNFPRL5rzg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_366a3bc6-379d-4fc7-953e-66a1d7b05266"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oBqSlPJGtCwo0Ehkz2j+H/8jFhY4EcbGtMhAX4sIb2aKWe66XEo43v4liuCkVaRMQWGOM8ZWKBUR&#13;
+eQIodurxfQ==</DigestValue></Reference></SignedInfo><SignatureValue>fiCKfsBL0lZmw4cuDK16mSy/JD/pbceHKhkrgIH4GeWwPuY4KEhJ8VH5aY33vBwYRM0SxdJ5y2Ls&#13;
+5SSg3kfOJg4nJ0wJ/4goXqHHuB5tk+KEyKvOu0/JCc05rMW0RF+i3bK2iHcMTrcdmOcdlEz2lqPf&#13;
+LttEVOCPfkH9M+91eWGoUSdLEVvqaUudCIgnB6Mhs9WbwlwY/KaK8++J4lxEj8Rtyq++QzfEh5aa&#13;
+tbUMTvR6/IHOJgu8T3nJkACdrwtFJwdTajuu8o6YqDHEiyb6wcDTL2G5d+WuYbdR0E7Qt/cbzN+S&#13;
+WWspvdhVT2cg78DiGE0pa3Dr3yMVe/tbVpJCpg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_366a3bc6-379d-4fc7-953e-66a1d7b05266" Target="#_054d8fd0-acc9-4a02-bf2f-a9f0237f0cb3"><Timestamp>2021-08-06 09:15:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

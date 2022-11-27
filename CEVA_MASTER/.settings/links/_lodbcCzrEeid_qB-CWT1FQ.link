@@ -1,0 +1,29 @@
+{
+  "itemId" : "_lodbcCzrEeid_qB-CWT1FQ",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_pNfocCzrEeid_qB-CWT1FQ",
+    "parameterList" : [ {
+      "id" : "_6aTIsfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_ODS_Login"
+    }, {
+      "id" : "_6aTIsvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_ODS_AdditionalParams"
+    }, {
+      "id" : "_6aTIs_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_ODS_Server"
+    }, {
+      "id" : "_6aTItPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_ODS_Port"
+    }, {
+      "id" : "_6aTItfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_ODS_Password"
+    }, {
+      "id" : "_6aTItvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_ODS_Schema"
+    }, {
+      "id" : "_6aTIt_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_ODS_Sid"
+    } ]
+  } ]
+}

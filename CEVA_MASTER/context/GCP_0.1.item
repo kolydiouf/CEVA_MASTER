@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_56EJcPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="bqODSRefProject" prompt="bqODSRefProject?" promptNeeded="false" type="id_String" value="ods-corp" xmi:id="_56EJcfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqODSRefDataset" prompt="bqODSRefDataset?" promptNeeded="false" type="id_String" value="RF" xmi:id="_56EJcvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqClientId" prompt="bqClientId?" promptNeeded="false" type="id_String" value="887507428434-etv80gd0eruh2od7lrq71k6ndk7e02a9.apps.googleusercontent.com" xmi:id="_56EJc_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqClientSecret" prompt="bqClientSecret?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:MWg8QzZErGL8hQBsC11FF9EOQTQMNA23likIuZb7JgTMdMMTyyXZiKedtGxJLEyJPcEntQ==" xmi:id="_56EJdPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="gsAccessKey" prompt="gsAccessKey?" promptNeeded="false" type="id_String" value="GOOG62UQNN2CIDBG2AHH" xmi:id="_56EJdfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="gsSecretKey" prompt="gsSecretKey?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Cshp+TRYvj29Sxp2uoYQrnMAgkwSzhh5TIOC3xmdyg+ffYjckkpEvWEq5XWVtY7YciRvIUn/lTKpK6jZRH2e/DJsCuA=" xmi:id="_56EJdvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqAuth" prompt="bqAuth?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:DoOP7rAq7wJK45wWzZ78p6goM1enZ94FtYp1A10WhPEoOM5XnR/dCNNrNfR72gJGmMaSVtUDdSEWgUrHgtIUlwDAgoni0E2ts4YIRf3soBVrwwCiFQ==" xmi:id="_56EJd_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Google Cloud Platform DWH project id" name="bqDWHProjectId" prompt="bqDWHProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJePaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqDWHDataset" prompt="bqDWHDataset?" promptNeeded="false" type="id_String" value="QTM_REF_MASTER_V3" xmi:id="_56EJefaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Google Cloud Platform ODS project id" name="bqODSProjectId" prompt="bqODSProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJevaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_56EJe_aWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="bqODSRefProject" prompt="bqODSRefProject?" promptNeeded="false" type="id_String" value="ods-corp" xmi:id="_56EJfPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqODSRefDataset" prompt="bqODSRefDataset?" promptNeeded="false" type="id_String" value="RF" xmi:id="_56EJffaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqClientId" prompt="bqClientId?" promptNeeded="false" type="id_String" value="887507428434-etv80gd0eruh2od7lrq71k6ndk7e02a9.apps.googleusercontent.com" xmi:id="_56EJfvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqClientSecret" prompt="bqClientSecret?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:1km0ud8Kg5aJEX8Fcl9YwFZNK3HgbxiNulCxr0JoDoRdpbs6uJpQ4JO/6aBOGK+o/lsEtA==" xmi:id="_56EJf_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="gsAccessKey" prompt="gsAccessKey?" promptNeeded="false" type="id_String" value="GOOG62UQNN2CIDBG2AHH" xmi:id="_56EJgPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="gsSecretKey" prompt="gsSecretKey?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:o/zb0gBgJ6qOt8vt6gUTJju0JuZyuCYRw15XHWPrgFrjW/Z0lQ11Ec7hP6Y495wdlUDWwdFFbMwxWa7oH5x71zAxtfI=" xmi:id="_56EJgfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqAuth" prompt="bqAuth?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:hAdR+s4Tnu3VqextMh0olhFK77WU7DrkriD5uSqOEDHz6w2t78zETXYLZS+Z4f7AnJ2hX/H7A/lGK5FEUOdn+XPow/ZdsuFL8w1PActFgHRwmfHKZg==" xmi:id="_56EJgvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Google Cloud Platform DWH project id" name="bqDWHProjectId" prompt="bqDWHProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJg_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqDWHDataset" prompt="bqDWHDataset?" promptNeeded="false" type="id_String" value="MASTER_REF" xmi:id="_56EJhPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Google Cloud Platform ODS project id" name="bqODSProjectId" prompt="bqODSProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJhfaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Server" xmi:id="_56EJhvaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="bqODSRefProject" prompt="bqODSRefProject?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJh_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqODSRefDataset" prompt="bqODSRefDataset?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJiPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqClientId" prompt="bqClientId?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJifaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqClientSecret" prompt="bqClientSecret?" promptNeeded="false" type="id_Password" value="" xmi:id="_56EJivaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="gsAccessKey" prompt="gsAccessKey?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJi_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="gsSecretKey" prompt="gsSecretKey?" promptNeeded="false" type="id_Password" value="" xmi:id="_56EJjPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqAuth" prompt="bqAuth?" promptNeeded="false" type="id_Password" value="" xmi:id="_56EJjfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Google Cloud Platform DWH project id" name="bqDWHProjectId" prompt="bqDWHProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJjvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="bqDWHDataset" prompt="bqDWHDataset?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJj_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="Google Cloud Platform ODS project id" name="bqODSProjectId" prompt="bqODSProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_56EJkPaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5e0a274e-4dae-464b-96f7-b337104a28e5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EPjNWRHrvbpInO2ys3ZHsTlVUIMzfztByZPHU2bdrhuFqRHhADaY9qMmtLu7o2pNigeUOVNlBf5+&#13;
+cQulW4rXXQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_962b8811-4882-4fad-b054-3998a92962f0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>n8gqdwboJx06oFPpj+ElOmVWFAnMQ+AOOGLcYst/Mpi00CuzsSjl6O2y7wpKqY6wT0Bg80R6EhZa&#13;
++qGVP61jQw==</DigestValue></Reference></SignedInfo><SignatureValue>SCCTSW9U1fFFfAL79hSirYErgJMwD7wsTVVMuHe2zqtZCuSPBxM5VC9hNeaaS3fRfzk7UTKcDkwN&#13;
+WTUaPk4a/rx5DGfFSOVqFvQyHjpo8WRqzz+YSShpOluHR8VDOn9Q0r5VoEdx/qxKSqJmgUFArxlY&#13;
+2muAhhhToN/vcz6QqlHUhWMNhER59R1TK3zHqNcKKBdkPNnoZ762QoXwN3FthtCUfvXtipUhi/sK&#13;
+1IYFjQmbcDkFmN07xoINvgJmrsY3l+GZU7pe6FPSVoyotOwz8+Rpbcmvi1SeEGagdXmyQRJavfsx&#13;
+QM1k0Rvj6yMHB/IX4trMyIrhQMy27C6qumZFUg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_962b8811-4882-4fad-b054-3998a92962f0" Target="#_5e0a274e-4dae-464b-96f7-b337104a28e5"><Timestamp>2021-08-06 09:15:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

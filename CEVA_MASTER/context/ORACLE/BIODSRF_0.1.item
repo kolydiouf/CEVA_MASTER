@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_1ZUAMPm5EeuKdOZRqQ-TMg">
+    <contextParameter comment="" name="connection_BIODSRF_Port" prompt="connection_BIODSRF_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_1ZUAMfm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Sid" prompt="connection_BIODSRF_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSEUP" xmi:id="_1ZUAMvm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Password" prompt="connection_BIODSRF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:qu2rRUBEzf+fnOba4DPzKv14Bn266KHEfq++cmeVvGpmbLgaNFYfuQ==" xmi:id="_1ZUAM_m5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Server" prompt="connection_BIODSRF_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.10.32" xmi:id="_1ZUANPm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Schema" prompt="connection_BIODSRF_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSRF" xmi:id="_1ZUANfm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Login" prompt="connection_BIODSRF_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSRF" xmi:id="_1ZUANvm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_AdditionalParams" prompt="connection_BIODSRF_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1ZUAN_m5EeuKdOZRqQ-TMg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_1ZUAOPm5EeuKdOZRqQ-TMg">
+    <contextParameter comment="" name="connection_BIODSRF_Port" prompt="connection_BIODSRF_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_1ZUAOfm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Sid" prompt="connection_BIODSRF_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSEUP" xmi:id="_1ZUAOvm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Password" prompt="connection_BIODSRF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:DWBMb1xDIqDKdyVihHSS6qFHiJ7r3VBWRlWO3XGsP2qiODLmtB445g==" xmi:id="_1ZUAO_m5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Server" prompt="connection_BIODSRF_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.10.32" xmi:id="_1ZUAPPm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Schema" prompt="connection_BIODSRF_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSRF" xmi:id="_1ZUAPfm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Login" prompt="connection_BIODSRF_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSRF" xmi:id="_1ZUAPvm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_AdditionalParams" prompt="connection_BIODSRF_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1ZUAP_m5EeuKdOZRqQ-TMg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PreProd" xmi:id="_1ZUAQPm5EeuKdOZRqQ-TMg">
+    <contextParameter comment="" name="connection_BIODSRF_Port" prompt="connection_BIODSRF_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_1ZUAQfm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Sid" prompt="connection_BIODSRF_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSEUP" xmi:id="_1ZUAQvm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Password" prompt="connection_BIODSRF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:83UNM9A0cJ9sWT8wVIlG11pXiXEBAoLvVWWcLnSOzSaEPkARxNQxSg==" xmi:id="_1ZUAQ_m5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Server" prompt="connection_BIODSRF_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.10.32" xmi:id="_1ZUARPm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Schema" prompt="connection_BIODSRF_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSRF" xmi:id="_1ZUARfm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Login" prompt="connection_BIODSRF_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSRF" xmi:id="_1ZUARvm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_AdditionalParams" prompt="connection_BIODSRF_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1ZUAR_m5EeuKdOZRqQ-TMg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_1ZUASPm5EeuKdOZRqQ-TMg">
+    <contextParameter comment="" name="connection_BIODSRF_Port" prompt="connection_BIODSRF_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_1ZUASfm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Sid" prompt="connection_BIODSRF_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSEUP" xmi:id="_1ZUASvm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Password" prompt="connection_BIODSRF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:cwnfmmdQnC/sSvglBI4Az73QY7P92ap7jVeA0nAY3z/r5oZV/fPMBg==" xmi:id="_1ZUAS_m5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Server" prompt="connection_BIODSRF_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.10.32" xmi:id="_1ZUATPm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Schema" prompt="connection_BIODSRF_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSRF" xmi:id="_1ZUATfm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_Login" prompt="connection_BIODSRF_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSRF" xmi:id="_1ZUATvm5EeuKdOZRqQ-TMg"/>
+    <contextParameter comment="" name="connection_BIODSRF_AdditionalParams" prompt="connection_BIODSRF_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1ZUAT_m5EeuKdOZRqQ-TMg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_809c8a7e-84d0-433b-95e4-2c121295ea22"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SuonDnLx8jtHpJ7WUT2vrSC+A7aM9hCZ0Z10+pwjthKeomxHkzSUMp76DyRSROVvK7xaJR6sOyxc&#13;
+r+E+FCBlsQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ad6db409-a2b8-4fb1-8b5b-e4c8172d6837"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bOdewmy0afcA+UNJfjFZjiIoACWixgdJPeShJIDbUFJHqE5nl9PuxiX6Z/Qg7MyxuZMH5urnKP/s&#13;
+gE05+LDW3g==</DigestValue></Reference></SignedInfo><SignatureValue>obyPFJrsD26RYKTQV6I93QwYX3vX6061mSj2pmWuPwE1kZmpzon75RiNc14wX6y/SBEoI9wGMzOK&#13;
+Jx3lWmAhPveC9yaBvN2HmUu6VoetU5TE5cMwHHQxZx9yJsmehfQGaeZUSzgBsuiEwZtQcLdbKDxu&#13;
+/CL9nfuBGm69qePJIRPOgOW4iKu4wlLlSFbmHnuHT0Uul1LvfXCGSfqcZSLMCAT3pm7K4RkWqClt&#13;
+92x+bY1zs+TegyykrnQHbW7G2H4VQM8U/bvVezFbgJKPYc/VI2Xs/KdUl13wTQYSzp60gBBAQbT0&#13;
+BuNZAFkA5DGhcM1fmiiIRnmUU0ocymkj23OVog==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ad6db409-a2b8-4fb1-8b5b-e4c8172d6837" Target="#_809c8a7e-84d0-433b-95e4-2c121295ea22"><Timestamp>2021-09-21 13:24:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType name="Default" xmi:id="_6T4-sPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="SFTP_login" prompt="SFTP_login?" promptNeeded="false" type="id_String" value="" xmi:id="_6T4-sfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_pwd" prompt="SFTP_pwd?" promptNeeded="false" type="id_Password" value="" xmi:id="_6T4-svaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_host" prompt="SFTP_host?" promptNeeded="false" type="id_String" value="" xmi:id="_6T4-s_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_remotedir" prompt="SFTP_remotedir?" promptNeeded="false" type="id_String" value="" xmi:id="_6T4-tPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_localdir" prompt="SFTP_localdir?" promptNeeded="false" type="id_String" value="" xmi:id="_6T4-tfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_flag_del_when_received" prompt="SFTP_flag_del_when_received?" promptNeeded="false" type="id_Integer" value="" xmi:id="_6T4-tvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_fileMask" prompt="SFTP_fileMask?" promptNeeded="false" type="id_String" value="" xmi:id="_6T4-t_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_port" prompt="SFTP_port?" promptNeeded="false" type="id_Integer" value="" xmi:id="_6T4-uPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_key_passphrase" prompt="SFTP_key_passphrase?" promptNeeded="false" type="id_Password" value="" xmi:id="_6T4-ufaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_private_key" prompt="SFTP_private_key?" promptNeeded="false" type="id_String" value="" xmi:id="_6T4-uvaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType name="Dev" xmi:id="_6T4-u_aWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="SFTP_login" prompt="SFTP_login?" promptNeeded="false" type="id_String" value="CEVAMOVEIT" xmi:id="_6T4-vPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_pwd" prompt="SFTP_pwd?" promptNeeded="false" type="id_Password" value="" xmi:id="_6T4-vfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_host" prompt="SFTP_host?" promptNeeded="false" type="id_String" value="mft-ftp.cegedim-srh.net" xmi:id="_6T4-vvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_remotedir" prompt="SFTP_remotedir?" promptNeeded="false" type="id_String" value="/Distribution/SRH/clients/ceva/courant/OUT/PAYE/" xmi:id="_6T4-v_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_localdir" prompt="SFTP_localdir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\JDE_DATA_TRANSFER\TEAMS_PAYE_TO_JDE\FromFTP\" xmi:id="_6T4-wPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_flag_del_when_received" prompt="SFTP_flag_del_when_received?" promptNeeded="false" type="id_Integer" value="" xmi:id="_6T4-wfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_fileMask" prompt="SFTP_fileMask?" promptNeeded="false" type="id_String" value="*.txt" xmi:id="_6T4-wvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_port" prompt="SFTP_port?" promptNeeded="false" type="id_Integer" value="" xmi:id="_6T4-w_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_key_passphrase" prompt="SFTP_key_passphrase?" promptNeeded="false" type="id_Password" value="" xmi:id="_6T4-xPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_private_key" prompt="SFTP_private_key?" promptNeeded="false" type="id_String" value="" xmi:id="_6T4-xfaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType name="Prod" xmi:id="_6T4-xvaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="SFTP_login" prompt="SFTP_login?" promptNeeded="false" type="id_String" value="CEVAMOVEIT" xmi:id="_6T4-x_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_pwd" prompt="SFTP_pwd?" promptNeeded="false" type="id_Password" value="" xmi:id="_6T4-yPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_host" prompt="SFTP_host?" promptNeeded="false" type="id_String" value="mft-ftp.cegedim-srh.net" xmi:id="_6T4-yfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_remotedir" prompt="SFTP_remotedir?" promptNeeded="false" type="id_String" value="/Distribution/SRH/clients/ceva/courant/OUT/PAYE/" xmi:id="_6T4-yvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_localdir" prompt="SFTP_localdir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\JDE_DATA_TRANSFER\TEAMS_PAYE_TO_JDE\FromFTP\" xmi:id="_6T4-y_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_flag_del_when_received" prompt="SFTP_flag_del_when_received?" promptNeeded="false" type="id_Integer" value="" xmi:id="_6T4-zPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_fileMask" prompt="SFTP_fileMask?" promptNeeded="false" type="id_String" value="*.txt" xmi:id="_6T4-zfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_port" prompt="SFTP_port?" promptNeeded="false" type="id_Integer" value="" xmi:id="_6T4-zvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_key_passphrase" prompt="SFTP_key_passphrase?" promptNeeded="false" type="id_Password" value="" xmi:id="_6T4-z_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="SFTP_private_key" prompt="SFTP_private_key?" promptNeeded="false" type="id_String" value="" xmi:id="_6T4-0PaWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b4c9ea04-db59-49cb-81c7-96bac0ef652c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nTGfvMiHMILbKT+vhOnr111vuiWbyyWq1EKzySTBWRaVkKQBLxzsSGbpua7/EJzXEKKz4Ot9bBDg&#13;
+ZJLpFC9LlQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a6461637-5575-483a-9f15-faacb989934d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jKcKOICWqoy8cRrHNFbBgOJhhWBo7mR9MgZEznK30M/TeP7TBZfOqZ5i5stcdfYnBjmbVYYdTMoq&#13;
+lC5wT2sChA==</DigestValue></Reference></SignedInfo><SignatureValue>QFXrKVqTNfcKF8I1mdO1rYGhg+DY65/iMZWQW2TGwwKLGMpL4fJ8ATwsXju8r9wNPn7JD+LKo57+&#13;
+Ip08mRivcP6dmJIreOl8BQzuPm6b5ZOaYtotglfhMgElMk41hGgjXoSbAx8uhtIkeR7wyHd6TiDI&#13;
++68fzwOTec01AMTqorRTADk0XpwRiWiv1Kbq6Yfzvg35wHvo/abcYk8BOne/pzGx4+4Cix5TaqlT&#13;
+E6w+qVlNjNeXhJKKAizV1vjOPULV0BJtWjfqsymYVmDl6S2PNuYU9eyQ3mD0aRKKFITKjF5cmI+j&#13;
+II2qqY6Nr9yPrxA4vxLbiNmZQ2/TpOXb7lHmnQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a6461637-5575-483a-9f15-faacb989934d" Target="#_b4c9ea04-db59-49cb-81c7-96bac0ef652c"><Timestamp>2021-08-06 09:15:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

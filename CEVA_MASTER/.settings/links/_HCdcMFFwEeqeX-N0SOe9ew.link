@@ -1,0 +1,154 @@
+{
+  "itemId" : "_HCdcMFFwEeqeX-N0SOe9ew",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_1HPeQDe-EeyZu9mrT5jhiA",
+    "parameterList" : [ {
+      "id" : "_u_ztIFnEEeyH78rvSt2NUA",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_u_ztIVnEEeyH78rvSt2NUA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_u_ztIlnEEeyH78rvSt2NUA",
+      "name" : "ConfigFieldSeparator"
+    }, {
+      "id" : "_u_ztI1nEEeyH78rvSt2NUA",
+      "name" : "ConfigFile"
+    }, {
+      "id" : "_u_ztJFnEEeyH78rvSt2NUA",
+      "name" : "contextDir"
+    }, {
+      "id" : "_u_ztJVnEEeyH78rvSt2NUA",
+      "name" : "DataDir"
+    }, {
+      "id" : "_u_ztJlnEEeyH78rvSt2NUA",
+      "name" : "debugMode"
+    }, {
+      "id" : "_u_ztJ1nEEeyH78rvSt2NUA",
+      "name" : "LogDir"
+    }, {
+      "id" : "_u_ztKFnEEeyH78rvSt2NUA",
+      "name" : "LogDuration"
+    }, {
+      "id" : "_u_ztKlnEEeyH78rvSt2NUA",
+      "name" : "projectDir"
+    }, {
+      "id" : "_u_ztK1nEEeyH78rvSt2NUA",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_u_ztLFnEEeyH78rvSt2NUA",
+      "name" : "talendDir"
+    }, {
+      "id" : "_u_ztLVnEEeyH78rvSt2NUA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_1HPeQDe-EeyZu9mrT5jhiA",
+    "parameterList" : [ {
+      "id" : "_u_07Q1nEEeyH78rvSt2NUA",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_u_07RFnEEeyH78rvSt2NUA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_u_07RVnEEeyH78rvSt2NUA",
+      "name" : "ConfigFieldSeparator"
+    }, {
+      "id" : "_u_07RlnEEeyH78rvSt2NUA",
+      "name" : "ConfigFile"
+    }, {
+      "id" : "_u_07R1nEEeyH78rvSt2NUA",
+      "name" : "contextDir"
+    }, {
+      "id" : "_u_07SFnEEeyH78rvSt2NUA",
+      "name" : "DataDir"
+    }, {
+      "id" : "_u_07SVnEEeyH78rvSt2NUA",
+      "name" : "debugMode"
+    }, {
+      "id" : "_u_07SlnEEeyH78rvSt2NUA",
+      "name" : "LogDir"
+    }, {
+      "id" : "_u_07S1nEEeyH78rvSt2NUA",
+      "name" : "LogDuration"
+    }, {
+      "id" : "_u_07TVnEEeyH78rvSt2NUA",
+      "name" : "projectDir"
+    }, {
+      "id" : "_u_07TlnEEeyH78rvSt2NUA",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_u_07T1nEEeyH78rvSt2NUA",
+      "name" : "talendDir"
+    }, {
+      "id" : "_u_07UFnEEeyH78rvSt2NUA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_1HPeQDe-EeyZu9mrT5jhiA",
+    "parameterList" : [ {
+      "id" : "_u_07X1nEEeyH78rvSt2NUA",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_u_07YFnEEeyH78rvSt2NUA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_u_07YVnEEeyH78rvSt2NUA",
+      "name" : "ConfigFieldSeparator"
+    }, {
+      "id" : "_u_07YlnEEeyH78rvSt2NUA",
+      "name" : "ConfigFile"
+    }, {
+      "id" : "_u_07Y1nEEeyH78rvSt2NUA",
+      "name" : "contextDir"
+    }, {
+      "id" : "_u_07ZFnEEeyH78rvSt2NUA",
+      "name" : "DataDir"
+    }, {
+      "id" : "_u_07ZVnEEeyH78rvSt2NUA",
+      "name" : "debugMode"
+    }, {
+      "id" : "_u_07ZlnEEeyH78rvSt2NUA",
+      "name" : "LogDir"
+    }, {
+      "id" : "_u_07Z1nEEeyH78rvSt2NUA",
+      "name" : "LogDuration"
+    }, {
+      "id" : "_u_07aVnEEeyH78rvSt2NUA",
+      "name" : "projectDir"
+    }, {
+      "id" : "_u_07alnEEeyH78rvSt2NUA",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_u_07a1nEEeyH78rvSt2NUA",
+      "name" : "talendDir"
+    }, {
+      "id" : "_u_07bFnEEeyH78rvSt2NUA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  } ]
+}

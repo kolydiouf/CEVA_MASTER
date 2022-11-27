@@ -1,0 +1,79 @@
+{
+  "itemId" : "_B2krQKbjEeik-LC-tkHMcg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Dyy88EiUEeiavJkGsu3RWQ",
+    "parameterList" : [ {
+      "id" : "_6RjcZ_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhAdditionalParams"
+    }, {
+      "id" : "_6RjcZfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhLogin"
+    }, {
+      "id" : "_6RjcZvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhPassword"
+    }, {
+      "id" : "_6RjcYvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhPort"
+    }, {
+      "id" : "_6RjcZPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhSchema"
+    }, {
+      "id" : "_6RjcYfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhServer"
+    }, {
+      "id" : "_6RjcY_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhSid"
+    } ]
+  }, {
+    "contextName" : "LocalTest",
+    "repoId" : "_Dyy88EiUEeiavJkGsu3RWQ",
+    "parameterList" : [ {
+      "id" : "_6Rjcb_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhAdditionalParams"
+    }, {
+      "id" : "_6RjcbfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhLogin"
+    }, {
+      "id" : "_6RjcbvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhPassword"
+    }, {
+      "id" : "_6RjcavaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhPort"
+    }, {
+      "id" : "_6RjcbPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhSchema"
+    }, {
+      "id" : "_6RjcafaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhServer"
+    }, {
+      "id" : "_6Rjca_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhSid"
+    } ]
+  }, {
+    "contextName" : "SequenceurTest",
+    "repoId" : "_Dyy88EiUEeiavJkGsu3RWQ",
+    "parameterList" : [ {
+      "id" : "_6Rjcd_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhAdditionalParams"
+    }, {
+      "id" : "_6RjcdfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhLogin"
+    }, {
+      "id" : "_6RjcdvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhPassword"
+    }, {
+      "id" : "_6RjccvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhPort"
+    }, {
+      "id" : "_6RjcdPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhSchema"
+    }, {
+      "id" : "_6RjccfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhServer"
+    }, {
+      "id" : "_6Rjcc_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracleDwhSid"
+    } ]
+  } ]
+}

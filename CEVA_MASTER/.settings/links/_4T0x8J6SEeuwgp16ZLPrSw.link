@@ -1,0 +1,35 @@
+{
+  "itemId" : "_4T0x8J6SEeuwgp16ZLPrSw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_5LcgQIgGEeu6o8ItK0OPpA",
+    "parameterList" : [ {
+      "id" : "_CSo2kRF1EeygotdU5wNCjw",
+      "name" : "connection_JDBC_url"
+    }, {
+      "id" : "_CSo2khF1EeygotdU5wNCjw",
+      "name" : "connection_JDBC_jarFile"
+    }, {
+      "id" : "_CSo2kxF1EeygotdU5wNCjw",
+      "name" : "connection_JDBC_classDriver"
+    }, {
+      "id" : "_CSo2lBF1EeygotdU5wNCjw",
+      "name" : "connection_JDBC_username"
+    }, {
+      "id" : "_CSo2lRF1EeygotdU5wNCjw",
+      "name" : "connection_JDBC_password"
+    }, {
+      "id" : "_CSo2lhF1EeygotdU5wNCjw",
+      "name" : "connection_JDBC_mappingFile"
+    }, {
+      "id" : "_CSo2lxF1EeygotdU5wNCjw",
+      "name" : "connection_JDBC_schema"
+    }, {
+      "id" : "_CSo2mBF1EeygotdU5wNCjw",
+      "name" : "taille_curseur"
+    }, {
+      "id" : "_CSo2mRF1EeygotdU5wNCjw",
+      "name" : "taille_lot"
+    } ]
+  } ]
+}

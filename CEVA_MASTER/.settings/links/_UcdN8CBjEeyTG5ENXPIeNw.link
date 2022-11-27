@@ -1,0 +1,79 @@
+{
+  "itemId" : "_UcdN8CBjEeyTG5ENXPIeNw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_LJDxICB9EeyEoJFpXSKJfQ",
+    "parameterList" : [ {
+      "id" : "_LJPXUSB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Password"
+    }, {
+      "id" : "_LJPXUiB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Schema"
+    }, {
+      "id" : "_LJPXUyB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Server"
+    }, {
+      "id" : "_LJPXVCB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_AdditionalParams"
+    }, {
+      "id" : "_LJPXVSB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Login"
+    }, {
+      "id" : "_LJPXViB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Port"
+    }, {
+      "id" : "_LJPXVyB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Database"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_LJDxICB9EeyEoJFpXSKJfQ",
+    "parameterList" : [ {
+      "id" : "_LJPXYSB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Password"
+    }, {
+      "id" : "_LJPXYiB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Schema"
+    }, {
+      "id" : "_LJPXYyB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Server"
+    }, {
+      "id" : "_LJPXZCB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_AdditionalParams"
+    }, {
+      "id" : "_LJPXZSB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Login"
+    }, {
+      "id" : "_LJPXZiB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Port"
+    }, {
+      "id" : "_LJPXZyB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Database"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_LJDxICB9EeyEoJFpXSKJfQ",
+    "parameterList" : [ {
+      "id" : "_LJPXWSB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Password"
+    }, {
+      "id" : "_LJPXWiB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Schema"
+    }, {
+      "id" : "_LJPXWyB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Server"
+    }, {
+      "id" : "_LJPXXCB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_AdditionalParams"
+    }, {
+      "id" : "_LJPXXSB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Login"
+    }, {
+      "id" : "_LJPXXiB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Port"
+    }, {
+      "id" : "_LJPXXyB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Database"
+    } ]
+  } ]
+}

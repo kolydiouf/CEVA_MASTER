@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>joblets/archives</deletedFolders>
+  <deletedFolders>process/B_Batchs/GStorage_to_BOPROBigQuery</deletedFolders>
+  <deletedFolders>process/B_Batchs/GStorage_to_DWHBigquery</deletedFolders>
+  <deletedFolders>process/B_Batchs/ODSBI_to_GStorage</deletedFolders>
+  <deletedFolders>process/COMMON</deletedFolders>
+  <deletedFolders>process/G_Generics/Bigquery_ELT/archives</deletedFolders>
+  <deletedFolders>process/G_Generics/Bigquery_ELT/archives/Biqquery_ELT_copie</deletedFolders>
+  <deletedFolders>process/Z_Tests</deletedFolders>
+  <deletedItems id="_iXmT0Jt0EeuvuLFr3MKhPA" path="" type="CONTEXT"/>
+  <deletedItems id="_4T0x8J6SEeuwgp16ZLPrSw" path="" type="JDBC"/>
+  <deletedItems id="_WiEIUEXuEeyRup_i1tRQ_A" path="archives" type="JOBLET"/>
+  <deletedItems id="_geUbsCSaEemOhf2mi1YRAg" path="B_Batchs/GStorage_to_BOPROBigQuery" type="PROCESS"/>
+  <deletedItems id="_HCdcMFFwEeqeX-N0SOe9ew" path="B_Batchs/GStorage_to_DWHBigquery" type="PROCESS"/>
+  <deletedItems id="_yQbd4Bh5EeiYzaOICydGCA" path="B_Batchs/ODSBI_to_GStorage" type="PROCESS"/>
+  <deletedItems id="_-IkDpic9EeylI7eeN-BBVQ" path="COMMON" type="PROCESS"/>
+  <deletedItems id="_xnwOgN2UEey1yJTGW_ED9w" path="E_Utils/BigQuery/getQueryResults" type="PROCESS"/>
+  <deletedItems id="_x1gegE65Eey31fyAMPZThA" path="G_Generics/Bigquery_ELT/archives/Biqquery_ELT_copie" type="PROCESS"/>
+  <deletedItems id="_xLHdsE65Eey31fyAMPZThA" path="G_Generics/Bigquery_ELT/archives/Biqquery_ELT_copie" type="PROCESS"/>
+  <deletedItems id="_xs3f4E65Eey31fyAMPZThA" path="G_Generics/Bigquery_ELT/archives/Biqquery_ELT_copie" type="PROCESS"/>
+</recyclebin:RecycleBin>

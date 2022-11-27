@@ -1,0 +1,29 @@
+{
+  "itemId" : "_REsqEEbiEeinWss0349lOA",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_2zLhQEblEei-dfk3mOu4-A",
+    "parameterList" : [ {
+      "id" : "_6bn-afaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Sid"
+    }, {
+      "id" : "_6bn-avaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Login"
+    }, {
+      "id" : "_6bn-a_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Password"
+    }, {
+      "id" : "_6bn-bPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Port"
+    }, {
+      "id" : "_6bn-bfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Server"
+    }, {
+      "id" : "_6bn-bvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_Schema"
+    }, {
+      "id" : "_6bn-b_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_DWH_AdditionalParams"
+    } ]
+  } ]
+}

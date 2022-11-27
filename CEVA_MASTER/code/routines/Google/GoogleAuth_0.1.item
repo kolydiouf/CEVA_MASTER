@@ -1,0 +1,134 @@
+package routines;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+import java.util.List;
+
+import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
+import com.google.auth.oauth2.GoogleCredentials;
+
+public class GoogleAuth {
+
+	 /**
+     * getGoogleAccessToken: Get a Google Access Token.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} Custom Google Cloud
+     * 
+     * {param} string("c:/path/file.json") message: the path to json key file.
+     * 
+     * {example} getGoogleAccessToken("c:/path/file.json") return is d11f8ce29210b4b50c5e67533b699d02
+     * 
+     * @throws FileNotFoundException, IOException, GeneralSecurityException
+     * 
+     */
+	final private static List<String> cloudPlatformScope = java.util.Arrays
+			.asList("https://www.googleapis.com/auth/bigquery");
+	
+	public static String getGoogleAccessToken(String jsonKeyFilePath) throws FileNotFoundException, IOException, GeneralSecurityException {
+
+		
+		GoogleCredential credential = GoogleCredential.fromStream(new FileInputStream(jsonKeyFilePath))
+			.createScoped(cloudPlatformScope);
+		
+
+		credential.refreshToken();
+
+		return credential.getAccessToken();
+	}
+
+	 /**
+     * getDefaultServiceAccountAccessToken: Get a Google Access Token.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} Custom Google Cloud
+     * 
+     * {param}
+     * 
+     * {example} getGoogleDefaultServiceAccountCredentials() return is d11f8ce29210b4b50c5e67533b699d02
+     * 
+     * @throws FileNotFoundException, IOException, GeneralSecurityException
+     * 
+     */
+	public static String getDefaultServiceAccountAccessToken() throws FileNotFoundException, IOException, GeneralSecurityException {
+
+		GoogleCredentials credentials = null;
+		String projectCredentialsPath = null; 
+		
+		// Retrieve credentials environment variable for the current Talend project
+		projectCredentialsPath = System.getenv("GOOGLE_" + getProjectName() + "_CREDENTIALS");
+
+		if (projectCredentialsPath == null) {
+			// Environment variable not defined for the current Talend project
+			System.out.println("Envrionment variable not defined for the current Talend project.");
+			System.out.println("Please set GOOGLE_" + getProjectName() + "_CREDENTIALS environment variable.");
+
+			throw new RuntimeException("Unable to connect to BigQuery service.");
+		} else {
+			// Connect to BigQuery service using the project's service account json
+			try {
+				credentials = GoogleCredentials.fromStream(new FileInputStream(projectCredentialsPath))
+						.createScoped(cloudPlatformScope);
+				credentials.refresh();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				System.out.println(e.getMessage());
+				e.printStackTrace();
+			}
+
+			return credentials.getAccessToken().getTokenValue();
+		}
+	}
+	
+	public static GoogleCredentials getGoogleDefaultServiceAccountCredentials(){
+		GoogleCredentials credentials = null;
+		String projectCredentialsPath = null; 
+		
+		// Retrieve credentials environment variable for the current Talend project
+		projectCredentialsPath = System.getenv("GOOGLE_" + getProjectName() + "_CREDENTIALS");
+
+		if (projectCredentialsPath == null) {
+			// Environment variable not defined for the current Talend project
+			System.out.println("Envrionment variable not defined for the current Talend project.");
+			System.out.println("Please set GOOGLE_" + getProjectName() + "_CREDENTIALS environment variable.");
+
+			throw new RuntimeException("Unable to connect to BigQuery service.");
+		} else {
+			// Connect to BigQuery service using the project's service account json
+			try {
+				credentials = GoogleCredentials.fromStream(new FileInputStream(projectCredentialsPath))
+						.createScoped(cloudPlatformScope);
+				credentials.refresh();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				System.out.println(e.getMessage());
+				e.printStackTrace();
+			}
+
+			return credentials;
+		}
+	}
+	
+	@SuppressWarnings("rawtypes")
+	private static String getProjectName() {
+		String projectName = null;
+		for (StackTraceElement el : new Exception().getStackTrace()) {
+			try {
+				Class clazz = Class.forName(el.getClassName());
+				java.lang.reflect.Field fprojectName = clazz.getDeclaredField("projectName");
+				if (!String.class.equals(fprojectName.getType()))
+					continue;
+				fprojectName.setAccessible(true);
+				projectName = (String)fprojectName.get(clazz.newInstance());
+			} catch (NoSuchFieldException | ClassNotFoundException | IllegalArgumentException | IllegalAccessException | InstantiationException e) {}
+		}
+
+		return projectName;
+	}
+}

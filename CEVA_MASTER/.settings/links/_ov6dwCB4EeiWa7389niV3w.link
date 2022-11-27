@@ -1,0 +1,38 @@
+{
+  "itemId" : "_ov6dwCB4EeiWa7389niV3w",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_kMV6ACB6EeiWa7389niV3w",
+    "parameterList" : [ {
+      "id" : "_6YhnJ_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Login"
+    }, {
+      "id" : "_6YhnKPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_AdditionalParams"
+    }, {
+      "id" : "_6YhnKfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Server"
+    }, {
+      "id" : "_6YhnKvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Port"
+    }, {
+      "id" : "_6YhnK_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Password"
+    }, {
+      "id" : "_6YhnLPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema1"
+    }, {
+      "id" : "_6YhnLfaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Sid"
+    }, {
+      "id" : "_6YhnLvaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema2"
+    }, {
+      "id" : "_6YhnL_aWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema3"
+    }, {
+      "id" : "_6YhnMPaWEeuL7P7Fn1UmUQ",
+      "name" : "oracle12_JDE_Schema4"
+    } ]
+  } ]
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_6QTfMPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_WORKTMPDW5_AdditionalParams" prompt="connection_WORKTMPDW5_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6QTfMfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Login" prompt="connection_WORKTMPDW5_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="worktmp" xmi:id="_6QTfMvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Password" prompt="connection_WORKTMPDW5_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:p6/4jkZaHaHqM3XXYe9QAQyloeKuAHzd2Y0s/zTAmKYUuw0=" xmi:id="_6QTfM_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Port" prompt="connection_WORKTMPDW5_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_6QTfNPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Schema" prompt="connection_WORKTMPDW5_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="WORKTMP" xmi:id="_6QTfNfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Server" prompt="connection_WORKTMPDW5_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.10.37" xmi:id="_6QTfNvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Sid" prompt="connection_WORKTMPDW5_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSEUD" xmi:id="_6QTfN_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_6QTfOPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_WORKTMPDW5_AdditionalParams" prompt="connection_WORKTMPDW5_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6QTfOfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Login" prompt="connection_WORKTMPDW5_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="worktmp" xmi:id="_6QTfOvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Password" prompt="connection_WORKTMPDW5_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:J+T1dHTPNqZe8oHQ2mVNIOd/3FRnvOJy63SAxDYSOplHYUM=" xmi:id="_6QTfO_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Port" prompt="connection_WORKTMPDW5_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1521" xmi:id="_6QTfPPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Schema" prompt="connection_WORKTMPDW5_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="WORKTMP" xmi:id="_6QTfPfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Server" prompt="connection_WORKTMPDW5_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.10.8" xmi:id="_6QTfPvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Sid" prompt="connection_WORKTMPDW5_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dw5" xmi:id="_6QTfP_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_6QTfQPaWEeuL7P7Fn1UmUQ">
+    <contextParameter comment="" name="connection_WORKTMPDW5_AdditionalParams" prompt="connection_WORKTMPDW5_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6QTfQfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Login" prompt="connection_WORKTMPDW5_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="worktmp" xmi:id="_6QTfQvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Password" prompt="connection_WORKTMPDW5_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:X9YGVdeCcOiai6lw1+G6nGIAIQ0DX2zx424bYIVOMX4kTo4=" xmi:id="_6QTfQ_aWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Port" prompt="connection_WORKTMPDW5_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1622" xmi:id="_6QTfRPaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Schema" prompt="connection_WORKTMPDW5_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="WORKTMP" xmi:id="_6QTfRfaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Server" prompt="connection_WORKTMPDW5_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.20.10.32" xmi:id="_6QTfRvaWEeuL7P7Fn1UmUQ"/>
+    <contextParameter comment="" name="connection_WORKTMPDW5_Sid" prompt="connection_WORKTMPDW5_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSEUP" xmi:id="_6QTfR_aWEeuL7P7Fn1UmUQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c8e10623-b619-4c09-bc9b-5fa2c94d83b4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>aSsX6yQ/QIL1YGjz9H1WJY62fdYCZm/8e1WuUbEX2vE5dcsnkuGBbXYhgwowxLj+5JfoO8GnGEaT&#13;
+kNjAUqJ2iQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8cd9c9f7-39dd-4129-8c5a-744a3eb3334f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>I/5Gx8Dg/G9HBr4F7ZuRstHF6hF1gpV6mKzKWlHu86c1DBBi7v1M6vPbJA8o3R1RALl84NEmEkvv&#13;
+ydXVuOvXEA==</DigestValue></Reference></SignedInfo><SignatureValue>LrhC6VePSCvqJnO+c7ueHa5Q3qpfJCaRHvTqGNCiENwD6QXKSw3qm71f9nEfGa5f/3ZGldIEH+ux&#13;
+fP0FvAKgpcoN6Hhfter8quAsWww99B9NYuLVrb/DdgpAxuCuy9Q7+i20ZLHMV0HHmCitgg6CTyc6&#13;
+I0I5fD9piMTTxLXsnJfY6vyJfC5drQm8EmmSpSsQ8BShy9hzlMwJOCr1Bzfx0Do1/fuzvk4SCLAb&#13;
+94JC4wri4Au1P1mcLmNgL7X/4tZW00KkVjbrbkS1d4XtUpo03Cb70yskeFGVQgMoatB9JzX8DTkE&#13;
+c1IdCZ0GypOz6z++fW+zW4SkGZejqhrEkSHO6w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8cd9c9f7-39dd-4129-8c5a-744a3eb3334f" Target="#_c8e10623-b619-4c09-bc9b-5fa2c94d83b4"><Timestamp>2021-10-04 07:29:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

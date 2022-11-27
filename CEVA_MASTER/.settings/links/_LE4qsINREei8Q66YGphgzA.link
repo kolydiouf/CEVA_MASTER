@@ -1,0 +1,301 @@
+{
+  "itemId" : "_LE4qsINREei8Q66YGphgzA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_EODRME68Eey31fyAMPZThA",
+    "parameterList" : [ {
+      "id" : "_W-6BQHIgEeyLWZ_1XJvVAQ",
+      "name" : "ConfigFile"
+    }, {
+      "id" : "_W-6BQXIgEeyLWZ_1XJvVAQ",
+      "name" : "ConfigFieldSeparator"
+    }, {
+      "id" : "_W-6BQnIgEeyLWZ_1XJvVAQ",
+      "name" : "LogDuration"
+    }, {
+      "id" : "_54ZVi_aWEeuL7P7Fn1UmUQ",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_54ZVhfaWEeuL7P7Fn1UmUQ",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_54ZVh_aWEeuL7P7Fn1UmUQ",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_54ZVhPaWEeuL7P7Fn1UmUQ",
+      "name" : "DataDir"
+    }, {
+      "id" : "_54ZVhvaWEeuL7P7Fn1UmUQ",
+      "name" : "debugMode"
+    }, {
+      "id" : "_54ZVg_aWEeuL7P7Fn1UmUQ",
+      "name" : "LogDir"
+    }, {
+      "id" : "_W0Vc4HIIEeyTp5N9MWUFHA",
+      "name" : "parameter_ContextFile"
+    }, {
+      "id" : "_54ZViPaWEeuL7P7Fn1UmUQ",
+      "name" : "projectDir"
+    }, {
+      "id" : "_54ZVifaWEeuL7P7Fn1UmUQ",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_54ZVgfaWEeuL7P7Fn1UmUQ",
+      "name" : "talendDir"
+    }, {
+      "id" : "_54ZVgvaWEeuL7P7Fn1UmUQ",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Hi7IUHIIEeyTp5N9MWUFHA",
+    "parameterList" : [ {
+      "id" : "_lgTQIHR7EeyDZdUl0YgZ2Q",
+      "name" : "bqDWHProjectId"
+    }, {
+      "id" : "_ciUMAHR8EeyDZdUl0YgZ2Q",
+      "name" : "bqODSProjectId"
+    }, {
+      "id" : "_f_I6YXIaEeyOKo0iGZTpkA",
+      "name" : "pDestinationDataset"
+    }, {
+      "id" : "_WBwxo3IiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationDatasetId"
+    }, {
+      "id" : "_WBwxonIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationProjectId"
+    }, {
+      "id" : "_f_I6YnIaEeyOKo0iGZTpkA",
+      "name" : "pDestinationTable"
+    }, {
+      "id" : "_WBwxpHIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationTableId"
+    }, {
+      "id" : "_HkE-4HIIEeyTp5N9MWUFHA",
+      "name" : "pFlowCategory"
+    }, {
+      "id" : "_UlgrgHIhEeyLWZ_1XJvVAQ",
+      "name" : "pFlowExecListFile"
+    }, {
+      "id" : "_HkE-4XIIEeyTp5N9MWUFHA",
+      "name" : "pFlowPrmFile"
+    }, {
+      "id" : "_HkE-4nIIEeyTp5N9MWUFHA",
+      "name" : "pJsonKeyFile"
+    }, {
+      "id" : "_WBwxoHIiEeyLWZ_1XJvVAQ",
+      "name" : "pProjectId"
+    }, {
+      "id" : "_WBwxoXIiEeyLWZ_1XJvVAQ",
+      "name" : "pQuery"
+    }, {
+      "id" : "_f_I6YHIaEeyOKo0iGZTpkA",
+      "name" : "pSourceDataset"
+    }, {
+      "id" : "_WBwxpXIiEeyLWZ_1XJvVAQ",
+      "name" : "pUseLegacySql"
+    }, {
+      "id" : "_WBwxpnIiEeyLWZ_1XJvVAQ",
+      "name" : "pWriteDisposition"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_Hi7IUHIIEeyTp5N9MWUFHA",
+    "parameterList" : [ {
+      "id" : "_lgTQIXR7EeyDZdUl0YgZ2Q",
+      "name" : "bqDWHProjectId"
+    }, {
+      "id" : "_ciUMAXR8EeyDZdUl0YgZ2Q",
+      "name" : "bqODSProjectId"
+    }, {
+      "id" : "_f_I6ZHIaEeyOKo0iGZTpkA",
+      "name" : "pDestinationDataset"
+    }, {
+      "id" : "_WQlQw3IiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationDatasetId"
+    }, {
+      "id" : "_WQlQwnIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationProjectId"
+    }, {
+      "id" : "_f_I6ZXIaEeyOKo0iGZTpkA",
+      "name" : "pDestinationTable"
+    }, {
+      "id" : "_WQlQxHIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationTableId"
+    }, {
+      "id" : "_HkE-43IIEeyTp5N9MWUFHA",
+      "name" : "pFlowCategory"
+    }, {
+      "id" : "_UlgrgXIhEeyLWZ_1XJvVAQ",
+      "name" : "pFlowExecListFile"
+    }, {
+      "id" : "_HkE-5HIIEeyTp5N9MWUFHA",
+      "name" : "pFlowPrmFile"
+    }, {
+      "id" : "_HkE-5XIIEeyTp5N9MWUFHA",
+      "name" : "pJsonKeyFile"
+    }, {
+      "id" : "_WQlQwHIiEeyLWZ_1XJvVAQ",
+      "name" : "pProjectId"
+    }, {
+      "id" : "_WQlQwXIiEeyLWZ_1XJvVAQ",
+      "name" : "pQuery"
+    }, {
+      "id" : "_f_I6Y3IaEeyOKo0iGZTpkA",
+      "name" : "pSourceDataset"
+    }, {
+      "id" : "_WQlQxXIiEeyLWZ_1XJvVAQ",
+      "name" : "pUseLegacySql"
+    }, {
+      "id" : "_WQlQxnIiEeyLWZ_1XJvVAQ",
+      "name" : "pWriteDisposition"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_EODRME68Eey31fyAMPZThA",
+    "parameterList" : [ {
+      "id" : "_3yVwC3H9EeyrVYvDILbHpw",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_3yVwBXH9EeyrVYvDILbHpw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_3yVwB3H9EeyrVYvDILbHpw",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_3yVwBHH9EeyrVYvDILbHpw",
+      "name" : "DataDir"
+    }, {
+      "id" : "_3yVwBnH9EeyrVYvDILbHpw",
+      "name" : "debugMode"
+    }, {
+      "id" : "_3yVwA3H9EeyrVYvDILbHpw",
+      "name" : "LogDir"
+    }, {
+      "id" : "_W0Vc4XIIEeyTp5N9MWUFHA",
+      "name" : "parameter_ContextFile"
+    }, {
+      "id" : "_3yVwCHH9EeyrVYvDILbHpw",
+      "name" : "projectDir"
+    }, {
+      "id" : "_3yVwCXH9EeyrVYvDILbHpw",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_3yVwAXH9EeyrVYvDILbHpw",
+      "name" : "talendDir"
+    }, {
+      "id" : "_3yVwAnH9EeyrVYvDILbHpw",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_Hi7IUHIIEeyTp5N9MWUFHA",
+    "parameterList" : [ {
+      "id" : "_lgTQInR7EeyDZdUl0YgZ2Q",
+      "name" : "bqDWHProjectId"
+    }, {
+      "id" : "_ciUMAnR8EeyDZdUl0YgZ2Q",
+      "name" : "bqODSProjectId"
+    }, {
+      "id" : "_f_I6Z3IaEeyOKo0iGZTpkA",
+      "name" : "pDestinationDataset"
+    }, {
+      "id" : "_WQlQynIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationDatasetId"
+    }, {
+      "id" : "_WQlQyXIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationProjectId"
+    }, {
+      "id" : "_f_I6aHIaEeyOKo0iGZTpkA",
+      "name" : "pDestinationTable"
+    }, {
+      "id" : "_WQlQy3IiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationTableId"
+    }, {
+      "id" : "_HkE-5nIIEeyTp5N9MWUFHA",
+      "name" : "pFlowCategory"
+    }, {
+      "id" : "_UlgrgnIhEeyLWZ_1XJvVAQ",
+      "name" : "pFlowExecListFile"
+    }, {
+      "id" : "_HkE-53IIEeyTp5N9MWUFHA",
+      "name" : "pFlowPrmFile"
+    }, {
+      "id" : "_HkE-6HIIEeyTp5N9MWUFHA",
+      "name" : "pJsonKeyFile"
+    }, {
+      "id" : "_WQlQx3IiEeyLWZ_1XJvVAQ",
+      "name" : "pProjectId"
+    }, {
+      "id" : "_WQlQyHIiEeyLWZ_1XJvVAQ",
+      "name" : "pQuery"
+    }, {
+      "id" : "_f_I6ZnIaEeyOKo0iGZTpkA",
+      "name" : "pSourceDataset"
+    }, {
+      "id" : "_WQlQzHIiEeyLWZ_1XJvVAQ",
+      "name" : "pUseLegacySql"
+    }, {
+      "id" : "_WQlQzXIiEeyLWZ_1XJvVAQ",
+      "name" : "pWriteDisposition"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_EODRME68Eey31fyAMPZThA",
+    "parameterList" : [ {
+      "id" : "_3yVwF3H9EeyrVYvDILbHpw",
+      "name" : "cevaMasterDir"
+    }, {
+      "id" : "_3yVwEXH9EeyrVYvDILbHpw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_3yVwE3H9EeyrVYvDILbHpw",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_3yVwEHH9EeyrVYvDILbHpw",
+      "name" : "DataDir"
+    }, {
+      "id" : "_3yVwEnH9EeyrVYvDILbHpw",
+      "name" : "debugMode"
+    }, {
+      "id" : "_3yVwD3H9EeyrVYvDILbHpw",
+      "name" : "LogDir"
+    }, {
+      "id" : "_W0Vc4nIIEeyTp5N9MWUFHA",
+      "name" : "parameter_ContextFile"
+    }, {
+      "id" : "_3yVwFHH9EeyrVYvDILbHpw",
+      "name" : "projectDir"
+    }, {
+      "id" : "_3yVwFXH9EeyrVYvDILbHpw",
+      "name" : "sqlDir"
+    }, {
+      "id" : "_3yVwDXH9EeyrVYvDILbHpw",
+      "name" : "talendDir"
+    }, {
+      "id" : "_3yVwDnH9EeyrVYvDILbHpw",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_QJiCQCH6EeyMb-kO09NBlg",
+    "parameterList" : [ {
+      "id" : "_obzVcCBcEeyTod_5VNyIbQ",
+      "name" : "LogFile"
+    } ]
+  } ]
+}

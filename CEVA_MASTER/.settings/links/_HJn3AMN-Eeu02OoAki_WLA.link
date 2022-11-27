@@ -1,0 +1,29 @@
+{
+  "itemId" : "_HJn3AMN-Eeu02OoAki_WLA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_KKmUsMN-Eeu02OoAki_WLA",
+    "parameterList" : [ {
+      "id" : "_6PdKofaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Password"
+    }, {
+      "id" : "_6PdKovaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Server"
+    }, {
+      "id" : "_6PdKo_aWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_6PdKpPaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Port"
+    }, {
+      "id" : "_6PdKpfaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Login"
+    }, {
+      "id" : "_6PdKpvaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Schema"
+    }, {
+      "id" : "_6PdKp_aWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Sid"
+    } ]
+  } ]
+}

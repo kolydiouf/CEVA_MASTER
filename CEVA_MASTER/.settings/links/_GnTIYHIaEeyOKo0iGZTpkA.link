@@ -1,0 +1,85 @@
+{
+  "itemId" : "_GnTIYHIaEeyOKo0iGZTpkA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Hi7IUHIIEeyTp5N9MWUFHA",
+    "parameterList" : [ {
+      "id" : "_WBwxoHIiEeyLWZ_1XJvVAQ",
+      "name" : "pProjectId"
+    }, {
+      "id" : "_WBwxoXIiEeyLWZ_1XJvVAQ",
+      "name" : "pQuery"
+    }, {
+      "id" : "_WBwxonIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationProjectId"
+    }, {
+      "id" : "_WBwxo3IiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationDatasetId"
+    }, {
+      "id" : "_WBwxpHIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationTableId"
+    }, {
+      "id" : "_WBwxpXIiEeyLWZ_1XJvVAQ",
+      "name" : "pUseLegacySql"
+    }, {
+      "id" : "_WBwxpnIiEeyLWZ_1XJvVAQ",
+      "name" : "pWriteDisposition"
+    }, {
+      "id" : "_HkE-4nIIEeyTp5N9MWUFHA",
+      "name" : "pJsonKeyFile"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_Hi7IUHIIEeyTp5N9MWUFHA",
+    "parameterList" : [ {
+      "id" : "_WQlQwHIiEeyLWZ_1XJvVAQ",
+      "name" : "pProjectId"
+    }, {
+      "id" : "_WQlQwXIiEeyLWZ_1XJvVAQ",
+      "name" : "pQuery"
+    }, {
+      "id" : "_WQlQwnIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationProjectId"
+    }, {
+      "id" : "_WQlQw3IiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationDatasetId"
+    }, {
+      "id" : "_WQlQxHIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationTableId"
+    }, {
+      "id" : "_WQlQxXIiEeyLWZ_1XJvVAQ",
+      "name" : "pUseLegacySql"
+    }, {
+      "id" : "_WQlQxnIiEeyLWZ_1XJvVAQ",
+      "name" : "pWriteDisposition"
+    }, {
+      "id" : "_HkE-5XIIEeyTp5N9MWUFHA",
+      "name" : "pJsonKeyFile"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_Hi7IUHIIEeyTp5N9MWUFHA",
+    "parameterList" : [ {
+      "id" : "_WQlQx3IiEeyLWZ_1XJvVAQ",
+      "name" : "pProjectId"
+    }, {
+      "id" : "_WQlQyHIiEeyLWZ_1XJvVAQ",
+      "name" : "pQuery"
+    }, {
+      "id" : "_WQlQyXIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationProjectId"
+    }, {
+      "id" : "_WQlQynIiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationDatasetId"
+    }, {
+      "id" : "_WQlQy3IiEeyLWZ_1XJvVAQ",
+      "name" : "pDestinationTableId"
+    }, {
+      "id" : "_WQlQzHIiEeyLWZ_1XJvVAQ",
+      "name" : "pUseLegacySql"
+    }, {
+      "id" : "_WQlQzXIiEeyLWZ_1XJvVAQ",
+      "name" : "pWriteDisposition"
+    } ]
+  } ]
+}

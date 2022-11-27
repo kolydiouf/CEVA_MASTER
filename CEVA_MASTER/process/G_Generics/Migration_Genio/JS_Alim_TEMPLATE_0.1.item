@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_iV92YBUpEeynN8qYy_RrfQ" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="\\tld-dev-exec1\project_resources\JDE_DATA_TRANSFER\BI_DW_Alim_BIHQ_DT\BIHQ_Chartes_Logistiques\Config\"/>
+    <contextParameter comment="" internalId="_iV92YRUpEeynN8qYy_RrfQ" name="FileConfig" prompt="FileConfig?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CONFIG_BIHQ_Chartes_Logistiques.ini"/>
+    <contextParameter comment="" internalId="_iV92YhUpEeynN8qYy_RrfQ" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_iV92YxUpEeynN8qYy_RrfQ" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="="/>
+    <contextParameter comment="" internalId="_iV92ZBUpEeynN8qYy_RrfQ" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Chartes_Logistiques_Insert.csv"/>
+    <contextParameter comment="" internalId="_iV92ZRUpEeynN8qYy_RrfQ" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="NO"/>
+    <contextParameter comment="" internalId="_iV92ZhUpEeynN8qYy_RrfQ" name="JobStatut" prompt="JobStatut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92ZxUpEeynN8qYy_RrfQ" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="\\tld-dev-exec1\project_resources\JDE_DATA_TRANSFER\BI_DW_Alim_BIHQ_DT\BIHQ_Chartes_Logistiques\Target\"/>
+    <contextParameter comment="" internalId="_h-1WsBfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_AdditionalParams" prompt="BI_INDUS_SRC_AdditionalParams?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WsRfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Login" prompt="BI_INDUS_SRC_Login?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value="indus"/>
+    <contextParameter comment="" internalId="_h-1WshfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Password" prompt="BI_INDUS_SRC_Password?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_Password" value="enc:system.encryption.key.v1:ciq7BT7ROVcNbXmyGPcq/fqohU6eHo4Dfba1Zn2Jy+1U"/>
+    <contextParameter comment="" internalId="_h-1WsxfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Port" prompt="BI_INDUS_SRC_Port?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_h-1WtBfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Schema" prompt="BI_INDUS_SRC_Schema?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value="indus"/>
+    <contextParameter comment="" internalId="_h-1WtRfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Server" prompt="BI_INDUS_SRC_Server?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value="DW1LIB1EMA.ceva.net"/>
+    <contextParameter comment="" internalId="_h-1WthfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Sid" prompt="BI_INDUS_SRC_Sid?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value="dw5"/>
+    <contextParameter comment="" internalId="_h-1WtxfEEey2RIAkXtWAHg" name="connection_BIHQTGT_additionalparams" prompt="connection_BIHQTGT_additionalparams?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WuBfEEey2RIAkXtWAHg" name="connection_BIHQTGT_username" prompt="connection_BIHQTGT_username?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value="BIHQ"/>
+    <contextParameter comment="" internalId="_h-1WuRfEEey2RIAkXtWAHg" name="connection_BIHQTGT_password" prompt="connection_BIHQTGT_password?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_Password" value="enc:system.encryption.key.v1:SOZhB8+yXHAD3WiP4g3yahWcoRU6tqSAxAs+o8E7IvkjBGwmrB7Y"/>
+    <contextParameter comment="" internalId="_h-1WuhfEEey2RIAkXtWAHg" name="connection_BIHQTGT_port" prompt="connection_BIHQTGT_port?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value="1622"/>
+    <contextParameter comment="" internalId="_h-1WuxfEEey2RIAkXtWAHg" name="connection_BIHQTGT_schema" prompt="connection_BIHQTGT_schema?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value="BIHQ"/>
+    <contextParameter comment="" internalId="_h-1WvBfEEey2RIAkXtWAHg" name="connection_BIHQTGT_host" prompt="connection_BIHQTGT_host?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value="BI2DWHEU.ceva.net"/>
+    <contextParameter comment="" internalId="_h-1WvRfEEey2RIAkXtWAHg" name="connection_BIHQTGT_database" prompt="connection_BIHQTGT_database?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value="DWHEUD"/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" internalId="_iV92aBUpEeynN8qYy_RrfQ" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92aRUpEeynN8qYy_RrfQ" name="FileConfig" prompt="FileConfig?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92ahUpEeynN8qYy_RrfQ" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92axUpEeynN8qYy_RrfQ" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92bBUpEeynN8qYy_RrfQ" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92bRUpEeynN8qYy_RrfQ" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92bhUpEeynN8qYy_RrfQ" name="JobStatut" prompt="JobStatut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92bxUpEeynN8qYy_RrfQ" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WvhfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_AdditionalParams" prompt="BI_INDUS_SRC_AdditionalParams?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WvxfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Login" prompt="BI_INDUS_SRC_Login?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WwBfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Password" prompt="BI_INDUS_SRC_Password?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_h-1WwRfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Port" prompt="BI_INDUS_SRC_Port?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WwhfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Schema" prompt="BI_INDUS_SRC_Schema?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WwxfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Server" prompt="BI_INDUS_SRC_Server?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WxBfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Sid" prompt="BI_INDUS_SRC_Sid?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WxRfEEey2RIAkXtWAHg" name="connection_BIHQTGT_additionalparams" prompt="connection_BIHQTGT_additionalparams?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WxhfEEey2RIAkXtWAHg" name="connection_BIHQTGT_username" prompt="connection_BIHQTGT_username?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WxxfEEey2RIAkXtWAHg" name="connection_BIHQTGT_password" prompt="connection_BIHQTGT_password?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_h-1WyBfEEey2RIAkXtWAHg" name="connection_BIHQTGT_port" prompt="connection_BIHQTGT_port?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WyRfEEey2RIAkXtWAHg" name="connection_BIHQTGT_schema" prompt="connection_BIHQTGT_schema?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WyhfEEey2RIAkXtWAHg" name="connection_BIHQTGT_host" prompt="connection_BIHQTGT_host?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WyxfEEey2RIAkXtWAHg" name="connection_BIHQTGT_database" prompt="connection_BIHQTGT_database?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" internalId="_iV92cBUpEeynN8qYy_RrfQ" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92cRUpEeynN8qYy_RrfQ" name="FileConfig" prompt="FileConfig?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92chUpEeynN8qYy_RrfQ" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92cxUpEeynN8qYy_RrfQ" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92dBUpEeynN8qYy_RrfQ" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92dRUpEeynN8qYy_RrfQ" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92dhUpEeynN8qYy_RrfQ" name="JobStatut" prompt="JobStatut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_iV92dxUpEeynN8qYy_RrfQ" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WzBfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_AdditionalParams" prompt="BI_INDUS_SRC_AdditionalParams?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WzRfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Login" prompt="BI_INDUS_SRC_Login?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1WzhfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Password" prompt="BI_INDUS_SRC_Password?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_h-1WzxfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Port" prompt="BI_INDUS_SRC_Port?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W0BfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Schema" prompt="BI_INDUS_SRC_Schema?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W0RfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Server" prompt="BI_INDUS_SRC_Server?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W0hfEEey2RIAkXtWAHg" name="BI_INDUS_SRC_Sid" prompt="BI_INDUS_SRC_Sid?" promptNeeded="false" repositoryContextId="_pC3RgL4cEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W0xfEEey2RIAkXtWAHg" name="connection_BIHQTGT_additionalparams" prompt="connection_BIHQTGT_additionalparams?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W1BfEEey2RIAkXtWAHg" name="connection_BIHQTGT_username" prompt="connection_BIHQTGT_username?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W1RfEEey2RIAkXtWAHg" name="connection_BIHQTGT_password" prompt="connection_BIHQTGT_password?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_h-1W1hfEEey2RIAkXtWAHg" name="connection_BIHQTGT_port" prompt="connection_BIHQTGT_port?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W1xfEEey2RIAkXtWAHg" name="connection_BIHQTGT_schema" prompt="connection_BIHQTGT_schema?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W2BfEEey2RIAkXtWAHg" name="connection_BIHQTGT_host" prompt="connection_BIHQTGT_host?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h-1W2RfEEey2RIAkXtWAHg" name="connection_BIHQTGT_database" prompt="connection_BIHQTGT_database?" promptNeeded="false" repositoryContextId="_muf3oL4bEeue76pq7NfonA" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="160"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:4nc7ET52e5RkFZMaHk00v9cMSBLxQC78o2IJc8fV"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/7.3.1/workspace_ep/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JqxP0hQZCoqE0y8EksFffZ11cFozUACYRYCNbC2Z"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_gP-I42q0EeuUL8g5mYQEOA" name="DQTechnical"/>
+    <routinesParameter id="_gP0X5Gq0EeuUL8g5mYQEOA" name="DataMasking"/>
+    <routinesParameter id="_gPXr92q0EeuUL8g5mYQEOA" name="DataOperation"/>
+    <routinesParameter id="_gP0X7Gq0EeuUL8g5mYQEOA" name="DataQualityDependencies"/>
+    <routinesParameter id="_gP0X6Gq0EeuUL8g5mYQEOA" name="DataQuality"/>
+    <routinesParameter id="_gP0X8mq0EeuUL8g5mYQEOA" name="DqStringHandling"/>
+    <routinesParameter id="_gPXr-2q0EeuUL8g5mYQEOA" name="Mathematical"/>
+    <routinesParameter id="_gPhc82q0EeuUL8g5mYQEOA" name="Numeric"/>
+    <routinesParameter id="_gPhc92q0EeuUL8g5mYQEOA" name="Relational"/>
+    <routinesParameter id="_gPXr82q0EeuUL8g5mYQEOA" name="SQLike"/>
+    <routinesParameter id="_gPhc-2q0EeuUL8g5mYQEOA" name="StringHandling"/>
+    <routinesParameter id="_gPrN8Gq0EeuUL8g5mYQEOA" name="TalendDataGenerator"/>
+    <routinesParameter id="_gPrN9Gq0EeuUL8g5mYQEOA" name="TalendDate"/>
+    <routinesParameter id="_gP0X4Gq0EeuUL8g5mYQEOA" name="TalendStringUtil"/>
+    <routinesParameter id="_gPrN-Gq0EeuUL8g5mYQEOA" name="TalendString"/>
+  </parameters>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="1024">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:v8iSWWhAP5K1W67PyTqBdRNIZxsFUAZDHe0TVL4z"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CHARTE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT  CHARTE_INDUS.reference_interne_article,&#13;&#10;     CHARTE_INDUS.code_article,&#13;&#10;     CHARTE_INDUS.description_article_1,&#13;&#10;     CHARTE_INDUS.n_reference_charte,&#13;&#10;     CHARTE_INDUS.libelle_reference_charte,&#13;&#10;     CHARTE_INDUS.flux,&#13;&#10;     CHARTE_INDUS.periode_figee,&#13;&#10;     CHARTE_INDUS.delai_livraison,&#13;&#10;     CHARTE_INDUS.delai_approvisionnement,&#13;&#10;     CHARTE_INDUS.qte_mini_cde,&#13;&#10;     CHARTE_INDUS.multiple_mini_cde,&#13;&#10;     CHARTE_INDUS.code_regle_gestion,&#13;&#10;     CHARTE_INDUS.libelle_regle_gestion,&#13;&#10;     CHARTE_INDUS.code_mini_peremption_reste,&#13;&#10;     CHARTE_INDUS.libelle_mini_peremption_reste,&#13;&#10;     CHARTE_INDUS.code_quantite_tolerance,&#13;&#10;     CHARTE_INDUS.libelle_quantite_tolerance,&#13;&#10;     CHARTE_INDUS.code_livraison_partielle,&#13;&#10;     CHARTE_INDUS.libelle_livraison_partielle,&#13;&#10;     CHARTE_INDUS.code_saisonnalite,&#13;&#10;     CHARTE_INDUS.libelle_saisonnalite,&#13;&#10;    CHARTE_INDUS.code_forecast_realiste,&#13;&#10;     CHARTE_INDUS.libelle_forecast_realiste,&#13;&#10;     CHARTE_INDUS.code_delai_tolerance,&#13;&#10;     CHARTE_INDUS.libelle_delai_tolerance,&#13;&#10;     CHARTE_INDUS.quantite_eco_vrac,&#13;&#10;     CHARTE_INDUS.incremental,&#13;&#10;     CHARTE_INDUS.safety_stock_coverage,&#13;&#10;     CHARTE_INDUS.code_regroupement_pays,&#13;&#10;     CHARTE_INDUS.des_code_regroupement_pays,&#13;&#10;     CHARTE_INDUS.mag_plan_order,&#13;&#10;     CHARTE_INDUS.code_du_client_livre,&#13;&#10;     CHARTE_INDUS.nom_du_client_livre,&#13;&#10;     CHARTE_INDUS.date_creation_charte,&#13;&#10;    CHARTE_INDUS. date_derniere_modif,&#13;&#10;     CHARTE_INDUS.commentaires,&#13;&#10;     CHARTE_INDUS.code_cg_pal,&#13;&#10;     CHARTE_INDUS.libelle_cg_pal,&#13;&#10;     CHARTE_INDUS.liberation_anticipee&#13;&#10;FROM&#13;&#10;    charte CHARTE_INDUS&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="REFERENCE_INTERNE_ARTICLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_ARTICLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPTION_ARTICLE_1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="N_REFERENCE_CHARTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_REFERENCE_CHARTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FLUX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERIODE_FIGEE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DELAI_LIVRAISON"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DELAI_APPROVISIONNEMENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QTE_MINI_CDE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MULTIPLE_MINI_CDE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_REGLE_GESTION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_REGLE_GESTION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_MINI_PEREMPTION_RESTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_MINI_PEREMPTION_RESTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_QUANTITE_TOLERANCE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_QUANTITE_TOLERANCE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_LIVRAISON_PARTIELLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_LIVRAISON_PARTIELLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_SAISONNALITE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_SAISONNALITE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_FORECAST_REALISTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_FORECAST_REALISTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_DELAI_TOLERANCE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_DELAI_TOLERANCE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITE_ECO_VRAC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INCREMENTAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAFETY_STOCK_COVERAGE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_REGROUPEMENT_PAYS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DES_CODE_REGROUPEMENT_PAYS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAG_PLAN_ORDER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_DU_CLIENT_LIVRE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NOM_DU_CLIENT_LIVRE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DATE_CREATION_CHARTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DATE_DERNIERE_MODIF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMMENTAIRES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_CG_PAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_CG_PAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBERATION_ANTICIPEE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt; __TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleInput_1">
+      <column comment="" defaultValue="" key="false" length="38" name="REFERENCE_INTERNE_ARTICLE" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CODE_ARTICLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="DESCRIPTION_ARTICLE_1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="N_REFERENCE_CHARTE" nullable="false" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="LIBELLE_REFERENCE_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="FLUX" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="PERIODE_FIGEE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_LIVRAISON" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_APPROVISIONNEMENT" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="QTE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="MULTIPLE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="50" name="QUANTITE_ECO_VRAC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="INCREMENTAL" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="SAFETY_STOCK_COVERAGE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="DES_CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="MAG_PLAN_ORDER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="CODE_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="NOM_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_CREATION_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_DERNIERE_MODIF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="COMMENTAIRES" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBERATION_ANTICIPEE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="1024">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tReplicate_1">
+      <column comment="" defaultValue="" key="false" length="38" name="REFERENCE_INTERNE_ARTICLE" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CODE_ARTICLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="DESCRIPTION_ARTICLE_1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="N_REFERENCE_CHARTE" nullable="false" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="LIBELLE_REFERENCE_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="FLUX" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="PERIODE_FIGEE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_LIVRAISON" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_APPROVISIONNEMENT" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="QTE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="MULTIPLE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="50" name="QUANTITE_ECO_VRAC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="INCREMENTAL" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="SAFETY_STOCK_COVERAGE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="DES_CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="MAG_PLAN_ORDER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="CODE_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="NOM_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_CREATION_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_DERNIERE_MODIF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="COMMENTAIRES" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBERATION_ANTICIPEE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="896">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleOutput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xpZZT8Xesgey8KRMMZTp5wp6D14ZH4CAUpIGqWLe"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CHARTES_LOGISTIQUES&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="REFERENCE_INTERNE_ARTICLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_ARTICLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPTION_ARTICLE_1"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="N_REFERENCE_CHARTE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_REFERENCE_CHARTE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FLUX"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERIODE_FIGEE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DELAI_LIVRAISON"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DELAI_APPROVISIONNEMENT"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QTE_MINI_CDE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MULTIPLE_MINI_CDE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_REGLE_GESTION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_REGLE_GESTION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_MINI_PEREMPTION_RESTE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_MINI_PEREMPTION_RESTE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_QUANTITE_TOLERANCE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_QUANTITE_TOLERANCE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_LIVRAISON_PARTIELLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_LIVRAISON_PARTIELLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_SAISONNALITE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_SAISONNALITE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_FORECAST_REALISTE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_FORECAST_REALISTE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_DELAI_TOLERANCE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_DELAI_TOLERANCE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITE_ECO_VRAC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INCREMENTAL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAFETY_STOCK_COVERAGE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_REGROUPEMENT_PAYS"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DES_CODE_REGROUPEMENT_PAYS"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAG_PLAN_ORDER"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_DU_CLIENT_LIVRE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NOM_DU_CLIENT_LIVRE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DATE_CREATION_CHARTE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DATE_DERNIERE_MODIF"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMMENTAIRES"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_CG_PAL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBELLE_CG_PAL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LIBERATION_ANTICIPEE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="CONTAIN_BLOB_FROM_OTHER_DB" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleOutput_1">
+      <column comment="" defaultValue="" key="false" length="38" name="REFERENCE_INTERNE_ARTICLE" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CODE_ARTICLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="DESCRIPTION_ARTICLE_1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="N_REFERENCE_CHARTE" nullable="false" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="LIBELLE_REFERENCE_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="FLUX" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="PERIODE_FIGEE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_LIVRAISON" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_APPROVISIONNEMENT" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="QTE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="MULTIPLE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="50" name="QUANTITE_ECO_VRAC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="INCREMENTAL" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="SAFETY_STOCK_COVERAGE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="DES_CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="MAG_PLAN_ORDER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="CODE_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="NOM_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_CREATION_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_DERNIERE_MODIF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="COMMENTAIRES" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBERATION_ANTICIPEE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="38" name="REFERENCE_INTERNE_ARTICLE" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CODE_ARTICLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="DESCRIPTION_ARTICLE_1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="N_REFERENCE_CHARTE" nullable="false" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="LIBELLE_REFERENCE_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="FLUX" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="PERIODE_FIGEE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_LIVRAISON" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_APPROVISIONNEMENT" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="QTE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="MULTIPLE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="50" name="QUANTITE_ECO_VRAC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="INCREMENTAL" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="SAFETY_STOCK_COVERAGE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="DES_CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="MAG_PLAN_ORDER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="CODE_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="NOM_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_CREATION_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_DERNIERE_MODIF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="COMMENTAIRES" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBERATION_ANTICIPEE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="1088">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.TargetDir + context.FileName"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_1">
+      <column comment="" defaultValue="" key="false" length="38" name="REFERENCE_INTERNE_ARTICLE" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CODE_ARTICLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="DESCRIPTION_ARTICLE_1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="N_REFERENCE_CHARTE" nullable="false" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="LIBELLE_REFERENCE_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="FLUX" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="PERIODE_FIGEE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_LIVRAISON" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="DELAI_APPROVISIONNEMENT" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="QTE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="MULTIPLE_MINI_CDE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_REGLE_GESTION" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_MINI_PEREMPTION_RESTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_QUANTITE_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_LIVRAISON_PARTIELLE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_SAISONNALITE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_FORECAST_REALISTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_DELAI_TOLERANCE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="50" name="QUANTITE_ECO_VRAC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="INCREMENTAL" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="SAFETY_STOCK_COVERAGE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="DES_CODE_REGROUPEMENT_PAYS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="MAG_PLAN_ORDER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="CODE_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="8" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="NOM_DU_CLIENT_LIVRE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_CREATION_CHARTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="DATE_DERNIERE_MODIF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="COMMENTAIRES" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="CODE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBELLE_CG_PAL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="LIBERATION_ANTICIPEE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;Start job : &quot;+ jobName);&#10;System.out.println(&quot;Version: &quot; + jobVersion);&#10;System.out.println(&quot;Context: &quot; + contextStr);&#10;System.out.println(&quot;Start Execution &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************\n&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="StartJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_tsM0IL4cEeue76pq7NfonA"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.BI_INDUS_SRC_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.BI_INDUS_SRC_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.BI_INDUS_SRC_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.BI_INDUS_SRC_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.BI_INDUS_SRC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tFlxxCz7z+Wi7VQwSlN0w0wD2tfab9n26/TJwM7b+FaH2Jt5Tt9l95YEyS6biSvz3yF7+0+idJrF"/>
+    <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
+    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:mT1gJtxF6v78Kf+r8q1n28tOflamo10H6HH//9ao"/>
+    <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" show="false" value="false"/>
+    <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:F7bLCkzLybzNYXRDkBPe9xxBxYRWWyV6r0HUNaOT"/>
+    <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" show="false" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.BI_INDUS_SRC_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__ &lt;br&gt;__DW5_INDUS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot; \n Connexion à INDUS-DW5&quot;);&#10;System.out.println(&quot;BD : &quot; + context.BI_INDUS_SRC_Sid);&#10;System.out.println(&quot;User : &quot; + context.BI_INDUS_SRC_Login);&#10;System.out.println(&quot;Schéma : &quot; +  context.BI_INDUS_SRC_Schema);&#10;System.out.println(&quot;Port: &quot; +  context.BI_INDUS_SRC_Port);&#10;System.out.println(&quot;Serveur: &quot; +  context.BI_INDUS_SRC_Server);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Connexion KO&quot;);&#10;System.out.println(&quot;*****************************************************\n&quot;);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion Database KO&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Connexion à INDUS-DW5 OK le &quot; +TalendDate.formatDate(&quot;dd-MM-yyyy&quot;, TalendDate.getCurrentDate())+&quot; à &quot;+TalendDate.formatDate(&quot;HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;***************************************************** \n&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot; \n Connexion à DWHEUD_BIHQ&quot;);&#10;System.out.println(&quot;BD : &quot; + context.connection_BIHQTGT_database);&#10;System.out.println(&quot;User : &quot; + context.connection_BIHQTGT_username);&#10;System.out.println(&quot;Schéma : &quot; +  context.connection_BIHQTGT_schema);&#10;System.out.println(&quot;Port: &quot; +  context.connection_BIHQTGT_port);&#10;System.out.println(&quot;Serveur: &quot; +  context.connection_BIHQTGT_host);&#10;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_5"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_qFfwAL4YEeue76pq7NfonA"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_BIHQTGT_host"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_BIHQTGT_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_BIHQTGT_database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIHQTGT_schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_BIHQTGT_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:loyugp4xbT+WhJTneZW+wlqY4DcEFrmzk71qvVEIUMJVTMOakxvIY95oyrG5B+lAVfATMmWZ6f/VhbHZfYxs"/>
+    <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
+    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:0nmPBf2+uB1YQG7OmUh0eZAiECYl5K+A1YZC24+K"/>
+    <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" show="false" value="false"/>
+    <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:GP7kRQuTr+BxyExhW6TOfRaURN2FtLhghZ/+9xzr"/>
+    <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" show="false" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_BIHQTGT_additionalparams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;DWHEUD_BIHQ"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Connexion à DWHEUD_BIHQ OK le &quot; +TalendDate.formatDate(&quot;dd-MM-yyyy&quot;, TalendDate.getCurrentDate())+&quot; à &quot;+TalendDate.formatDate(&quot;HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;***************************************************** \n&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_6"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_7"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Connexion KO&quot;);&#10;System.out.println(&quot;*****************************************************\n&quot;);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_7"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-96" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_2"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion Database KO&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="768">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_8"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\n Loading technical data (DT) Table about ITEMS (Articles) and Insert into CHARTES_LOGISTIQUES. \n&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;Transfert Indus a DWHEUD"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_8"/>
+  </node>
+  <node componentName="tOracleCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="1696">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;DWHEUD_BIHQ"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleCommit_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="768">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_9"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Insertion table CHARTES_LOGISTIQUES completed.&quot;);&#10;System.out.println(&quot;Number of lines inserted: &quot; + ((Integer)globalMap.get(&quot;tOracleOutput_1_NB_LINE_INSERTED&quot;)));"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_9"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="1248">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_10"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="&#10;System.out.println(&quot;***************************************************** \n&quot;);&#10;context.JobStatut = &quot;OK&quot;;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_10"/>
+  </node>
+  <node componentName="tOracleRollback" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="1664">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleRollback_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;__DWHEUD_BIHQ__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleRollback_1"/>
+  </node>
+  <node componentName="tOracleClose" componentVersion="0.102" offsetLabelX="23" offsetLabelY="2" posX="832" posY="1824">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_2"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;__DW5_INDUS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="960">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Error Insertion: Table CHARTES_LOGISTIQUES, Database: &quot; + context.connection_BIHQTGT_schema"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="false"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="false"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_11"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.JobStatut = &quot;KO&quot;;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_11"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="928" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_3"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion KO&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_3"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="1408">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="1408">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_12"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;JobStatut&quot; + context.JobStatut);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_12"/>
+  </node>
+  <node componentName="tOracleClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_3"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;Close DW5_INDUS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="992" posY="1088">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_13"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Lines sucessfully inserted.&quot;);&#10;System.out.println(&quot;File path: &quot; + context.TargetDir + context.FileName);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_13"/>
+  </node>
+  <node componentName="tOracleClose" componentVersion="0.102" offsetLabelX="23" offsetLabelY="2" posX="640" posY="1824">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_5"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;__DW5_INDUS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="1952">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_14"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;End job&#9;&#9;&#9;: &quot; + jobName);&#10;System.out.println(&quot;End Execution&#9;: &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="EndJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_14"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="1952">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_15"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;End job&#9;&#9;&#9;: &quot; + jobName);&#10;System.out.println(&quot;End Execution&#9;: &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="EndJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_15"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="1568">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_16"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;End job&#9;&#9;&#9;: &quot; + jobName);&#10;System.out.println(&quot;End Execution&#9;: &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="EndJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_16"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="1536">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_17"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;FlagCommit = &quot; + context.FlagCommit);&#10;System.out.println(&quot;Rollback. \n&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_17"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="1568">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_18"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;FlagCommit = &quot; + context.FlagCommit);&#10;System.out.println(&quot;Commit. \n&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_18"/>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_1" target="tReplicate_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_1" target="tJava_10">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk10"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_1" target="tOracleOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleOutput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleOutput_1" target="tJava_9">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk16"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tOracleOutput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleOutput_1" target="tWarn_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError5"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tJava_13">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk17"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk11"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_1" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError6"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_1" target="tJava_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk18"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_1" target="tJava_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk12"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tOracleConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk13"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk19"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_5" offsetLabelX="0" offsetLabelY="0" source="tJava_5" target="tOracleConnection_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk14"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tOracleConnection_2" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_2" target="tJava_7">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError7"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_2" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_2" target="tJava_6">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk20"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleConnection_2" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_2" target="tJava_8">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk15"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_7" offsetLabelX="0" offsetLabelY="0" source="tJava_7" target="tOracleClose_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk21"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_8" offsetLabelX="0" offsetLabelY="0" source="tJava_8" target="tOracleInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk16"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleCommit_1" offsetLabelX="0" offsetLabelY="0" source="tOracleCommit_1" target="tOracleClose_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk17"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleRollback_1" offsetLabelX="0" offsetLabelY="0" source="tOracleRollback_1" target="tOracleClose_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk8"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleClose_2" offsetLabelX="0" offsetLabelY="0" source="tOracleClose_2" target="tJava_14">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk9"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJava_11">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk23"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_11" offsetLabelX="0" offsetLabelY="0" source="tJava_11" target="tDie_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk24"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tJava_12">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk27"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJava_12" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tJava_12" target="tJava_17">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="(&quot;KO&quot;.equals(context.JobStatut) || (&quot;OK&quot;.equals(context.JobStatut) &amp;&amp; &quot;NO&quot;.equals(context.FlagCommit)))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If3"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJava_12" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tJava_12" target="tJava_18">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="&quot;OK&quot;.equals(context.JobStatut) &amp;&amp; &quot;YES&quot;.equals(context.FlagCommit) "/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If4"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJava_12" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tJava_12" target="tJava_16">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="Relational.ISNULL(context.JobStatut)"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If5"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleClose_3" offsetLabelX="0" offsetLabelY="0" source="tOracleClose_3" target="tDie_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk28"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleClose_5" offsetLabelX="0" offsetLabelY="0" source="tOracleClose_5" target="tJava_15">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk18"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_17" offsetLabelX="0" offsetLabelY="0" source="tJava_17" target="tOracleRollback_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk19"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_18" offsetLabelX="0" offsetLabelY="0" source="tJava_18" target="tOracleCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk20"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_7"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_8"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleCommit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_9"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_10"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleRollback_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_11"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_12"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_13"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_14"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="End"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_15"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="End"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_16"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="End"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_17"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_18"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ce3764b8-5081-4391-8bb2-c1e8f052b92e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>17Acg6bbK9mvcB4RJLvODLiqQCGnuw84rndL7RxlwneIHHX8vDsxFS1FTABBB5buqTrX4V3B74GY&#13;
+Hq/nOoy1Kg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6c9176fb-f1f5-4a87-8a1b-d6fb44966d6e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cDY3TMJBZOTBJUCYtVthI/D1OhhkL6IoVPp9EzypRXv91+aDNWbYkQPclBbDdpuN5j29kI1JcjMn&#13;
+nE3rSGZPDg==</DigestValue></Reference></SignedInfo><SignatureValue>oNEK/C7wh9QNl9HTd1jzBR0fjm4Xn4RNBVpjvstjiX1qLm9dV1VLFgTl9YUpH94fCYOrIpB5M5AC&#13;
+HT3eicix61I9tS0otRsP6dDxF8cKkP/7Dj8XImAsJYq50+YFz+m/p2DyARnlaQhEbbOu5J3gJ1s1&#13;
+Tc0vfd8MXO+TkjYG52qlARk0vq2IP2mDzhwfQFIwsXmrsgsN+BCP+wjyDLrNz1Nt1SGMnIonTc0E&#13;
+RUix1fcolhzaPVZbvsVQbtB2bUCbn9EIXHCdYMe2NL6zc7jKN8F4G95NcjYszJwTlt4AYw/poBrS&#13;
+iQTlenj9avJ49rL0IbNdQs5ZruNwSjvMHED8Ag==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6c9176fb-f1f5-4a87-8a1b-d6fb44966d6e" Target="#_ce3764b8-5081-4391-8bb2-c1e8f052b92e"><Timestamp>2021-10-07 12:45:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

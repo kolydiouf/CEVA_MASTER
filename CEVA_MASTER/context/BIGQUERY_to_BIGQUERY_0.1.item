@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_Hi8WcHIIEeyTp5N9MWUFHA">
+    <contextParameter comment="Name of the file containing the flow execution list" name="pFlowCategory" prompt="pFlowCategory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;QTM_FACT_AP_JDE&quot;" xmi:id="_HkE-4HIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="Name of the file containing flows configuration" name="pFlowPrmFile" prompt="pFlowPrmFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HkE-4XIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="pJsonKeyFile" prompt="pJsonKeyFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HkE-4nIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="pSourceDataset" prompt="pSourceDataset?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6YHIaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="" name="pDestinationDataset" prompt="pDestinationDataset?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6YXIaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="" name="pDestinationTable" prompt="pDestinationTable?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6YnIaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="Name of the file containing the flow execution list" name="pFlowExecListFile" prompt="pFlowExecListFile?" promptNeeded="false" type="id_String" value="" xmi:id="_UlgrgHIhEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Project ID of the project that will be billed for the job" name="pProjectId" prompt="pProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_WBwxoHIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="SQL query string" name="pQuery" prompt="pQuery?" promptNeeded="false" type="id_String" value="" xmi:id="_WBwxoXIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination project id" name="pDestinationProjectId" prompt="pDestinationProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_WBwxonIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination dataset id" name="pDestinationDatasetId" prompt="pDestinationDatasetId?" promptNeeded="false" type="id_String" value="" xmi:id="_WBwxo3IiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination tableid" name="pDestinationTableId" prompt="pDestinationTableId?" promptNeeded="false" type="id_String" value="" xmi:id="_WBwxpHIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="(deprecated) Use legacy SQL" name="pUseLegacySql" prompt="pUseLegacySql?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_WBwxpXIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Write disposition (WRITE_TRUNCATE, WRITE_APPEND, WRITE_EMPTY)" name="pWriteDisposition" prompt="pWriteDisposition?" promptNeeded="false" type="id_String" value="" xmi:id="_WBwxpnIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform DWH project id" name="bqDWHProjectId" prompt="bqDWHProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_lgTQIHR7EeyDZdUl0YgZ2Q"/>
+    <contextParameter comment="Google Cloud Platform ODS project id" name="bqODSProjectId" prompt="bqODSProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_ciUMAHR8EeyDZdUl0YgZ2Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_Hi8WcXIIEeyTp5N9MWUFHA">
+    <contextParameter comment="Name of the file containing the flow execution list" name="pFlowCategory" prompt="pFlowCategory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HkE-43IIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="Name of the file containing flows configuration" name="pFlowPrmFile" prompt="pFlowPrmFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HkE-5HIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="pJsonKeyFile" prompt="pJsonKeyFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HkE-5XIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="pSourceDataset" prompt="pSourceDataset?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6Y3IaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="" name="pDestinationDataset" prompt="pDestinationDataset?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6ZHIaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="" name="pDestinationTable" prompt="pDestinationTable?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6ZXIaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="Name of the file containing the flow execution list" name="pFlowExecListFile" prompt="pFlowExecListFile?" promptNeeded="false" type="id_String" value="" xmi:id="_UlgrgXIhEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Project ID of the project that will be billed for the job" name="pProjectId" prompt="pProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQwHIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="SQL query string" name="pQuery" prompt="pQuery?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQwXIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination project id" name="pDestinationProjectId" prompt="pDestinationProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQwnIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination dataset id" name="pDestinationDatasetId" prompt="pDestinationDatasetId?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQw3IiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination tableid" name="pDestinationTableId" prompt="pDestinationTableId?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQxHIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="(deprecated) Use legacy SQL" name="pUseLegacySql" prompt="pUseLegacySql?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_WQlQxXIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Write disposition (WRITE_TRUNCATE, WRITE_APPEND, WRITE_EMPTY)" name="pWriteDisposition" prompt="pWriteDisposition?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQxnIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform DWH project id" name="bqDWHProjectId" prompt="bqDWHProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_lgTQIXR7EeyDZdUl0YgZ2Q"/>
+    <contextParameter comment="Google Cloud Platform ODS project id" name="bqODSProjectId" prompt="bqODSProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_ciUMAXR8EeyDZdUl0YgZ2Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_Hi8WcnIIEeyTp5N9MWUFHA">
+    <contextParameter comment="Name of the file containing the flow execution list" name="pFlowCategory" prompt="pFlowCategory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HkE-5nIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="Name of the file containing flows configuration" name="pFlowPrmFile" prompt="pFlowPrmFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HkE-53IIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="pJsonKeyFile" prompt="pJsonKeyFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HkE-6HIIEeyTp5N9MWUFHA"/>
+    <contextParameter comment="" name="pSourceDataset" prompt="pSourceDataset?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6ZnIaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="" name="pDestinationDataset" prompt="pDestinationDataset?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6Z3IaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="" name="pDestinationTable" prompt="pDestinationTable?" promptNeeded="false" type="id_String" value="" xmi:id="_f_I6aHIaEeyOKo0iGZTpkA"/>
+    <contextParameter comment="Name of the file containing the flow execution list" name="pFlowExecListFile" prompt="pFlowExecListFile?" promptNeeded="false" type="id_String" value="" xmi:id="_UlgrgnIhEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Project ID of the project that will be billed for the job" name="pProjectId" prompt="pProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQx3IiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="SQL query string" name="pQuery" prompt="pQuery?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQyHIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination project id" name="pDestinationProjectId" prompt="pDestinationProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQyXIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination dataset id" name="pDestinationDatasetId" prompt="pDestinationDatasetId?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQynIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform destination tableid" name="pDestinationTableId" prompt="pDestinationTableId?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQy3IiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="(deprecated) Use legacy SQL" name="pUseLegacySql" prompt="pUseLegacySql?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_WQlQzHIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Write disposition (WRITE_TRUNCATE, WRITE_APPEND, WRITE_EMPTY)" name="pWriteDisposition" prompt="pWriteDisposition?" promptNeeded="false" type="id_String" value="" xmi:id="_WQlQzXIiEeyLWZ_1XJvVAQ"/>
+    <contextParameter comment="Google Cloud Platform DWH project id" name="bqDWHProjectId" prompt="bqDWHProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_lgTQInR7EeyDZdUl0YgZ2Q"/>
+    <contextParameter comment="Google Cloud Platform ODS project id" name="bqODSProjectId" prompt="bqODSProjectId?" promptNeeded="false" type="id_String" value="" xmi:id="_ciUMAnR8EeyDZdUl0YgZ2Q"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0b9f9984-cca2-4d30-a0a8-aa115d0d15eb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YzZHqwcPY5vdN79wB6eALhWkJXnGdcQD6rJRxxWFZSZOgxNE/Y/jXtoA8R5aZY6HNSWPZWcpAAYU&#13;
+9hw6ELjqyQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1aae83f8-90e7-4ce5-bc99-f41b7781b688"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g3HlPdj5u/0xdPHNPjuA4s7oSxw317qjtG2l4LKWzwDEOnzBV9hGSvLo+3GItBmDzZfw8JWYyeAD&#13;
+kMqKEY0z9g==</DigestValue></Reference></SignedInfo><SignatureValue>F06k8pZOE1RwV/3Ejz0mIa+a1mVcwzi0aIl7yZSYSPdxynT//vWxcNrFqKHKyW53HdS6BrFEw/q3&#13;
+XH+M1EZCRGnVySLbmzaTWP1mNwPTL7j3bVA1Ye/Ue3pHbmeRP9G4fDMrW8RroPdUHwjKuO1KPvtz&#13;
+xpdD8MZvesEIVtjxb7jeMAo0Kdc1waLyNHpxXYoffv2UQmwrrVfEIJexh/vv9wkGaBoS5F7B0V4U&#13;
+4wC16f1hIf0NURo01uDGlDt3ckElLaQUiGUFEtlY1DdBeVblXAzYk2fwCBTJ30BLKH31T7SPt9pu&#13;
+hgbMKLg2E53t01/3XT7IcG6byNgZilq60BpOjg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1aae83f8-90e7-4ce5-bc99-f41b7781b688" Target="#_0b9f9984-cca2-4d30-a0a8-aa115d0d15eb"><Timestamp>2022-01-13 14:23:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

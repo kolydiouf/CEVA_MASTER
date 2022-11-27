@@ -1,0 +1,29 @@
+{
+  "itemId" : "_Na2zcCBjEeyTG5ENXPIeNw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_LJDxICB9EeyEoJFpXSKJfQ",
+    "parameterList" : [ {
+      "id" : "_LJPXUSB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Password"
+    }, {
+      "id" : "_LJPXUiB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Schema"
+    }, {
+      "id" : "_LJPXUyB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Server"
+    }, {
+      "id" : "_LJPXVCB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_AdditionalParams"
+    }, {
+      "id" : "_LJPXVSB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Login"
+    }, {
+      "id" : "_LJPXViB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Port"
+    }, {
+      "id" : "_LJPXVyB9EeyEoJFpXSKJfQ",
+      "name" : "connection_TALENDLOG_Database"
+    } ]
+  } ]
+}
